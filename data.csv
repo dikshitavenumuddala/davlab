@@ -1,0 +1,751 @@
+Medicine_ID,Medicine_Name,Generic_Name,Manufacturer,Medicine_Category,Dosage_Form,Strength,Pack_Size,Batch_Number,Manufacturing_Date,Expiry_Date,Days_to_Expiry,Initial_Quantity,Current_Stock,Quantity_Sold,Quantity_Wasted,Unit_Price,Stock_Value,Potential_Loss,Supplier,Storage_Location,Expiry_Status,Stock_Status
+MED-0001,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN46048,2025-07-13,2026-09-03,17,792,399,393,0,76.1,30363.9,30363.9,PharmaLink Distribution,Shelf C-1,Critical (<30 Days),Optimal
+MED-0002,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN22280,2024-12-16,2026-10-20,64,127,55,72,0,18.9,1039.5,1039.5,OmniPharma Ltd.,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0003,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN10851,2025-05-06,2027-04-28,254,532,179,353,0,25.42,4550.18,0,Medix Wholesale,Cold Storage 2,Safe,Optimal
+MED-0004,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN22676,2025-12-29,2027-11-03,443,370,27,343,0,62.7,1692.9,0,OmniPharma Ltd.,Shelf A-1,Safe,Low Stock
+MED-0005,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN92397,2026-01-30,2027-11-21,461,296,185,111,0,8.24,1524.4,0,Medix Wholesale,Shelf B-1,Safe,Overstocked
+MED-0006,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,60s,BN59823,2026-09-02,2027-11-24,464,479,186,293,0,19.78,3679.08,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0007,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN80010,2025-09-08,2027-05-02,258,488,143,345,0,84.14,12032.02,0,OmniPharma Ltd.,Shelf A-2,Safe,Optimal
+MED-0008,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN40021,2026-03-14,2027-10-05,414,374,38,336,0,19.91,756.58,0,OmniPharma Ltd.,Narcotics Safe,Safe,Low Stock
+MED-0009,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN61856,2026-12-17,2028-02-28,560,371,76,295,0,22.85,1736.6,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0010,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN57447,2024-12-17,2026-09-03,17,605,66,539,0,64.85,4280.1,4280.1,PharmaLink Distribution,Shelf A-2,Critical (<30 Days),Low Stock
+MED-0011,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN88172,2024-07-25,2026-05-26,-83,579,145,434,145,23.24,3369.8,3369.8,OmniPharma Ltd.,Shelf A-1,Expired,Optimal
+MED-0012,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN94012,2026-02-02,2027-09-12,391,261,121,140,0,2.77,335.17,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0013,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,48s,BN93748,2026-03-21,2027-06-07,294,482,87,395,0,47,4089,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0014,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN12552,2025-04-28,2026-10-02,46,345,34,311,0,22.37,760.58,760.58,OmniPharma Ltd.,Shelf A-1,Near Expiry (31-90 Days),Low Stock
+MED-0015,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,100s,BN19071,2027-03-12,2028-05-14,636,231,173,58,0,41.71,7215.83,0,OmniPharma Ltd.,Shelf A-2,Safe,Overstocked
+MED-0016,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,14s,BN80686,2025-06-09,2027-06-09,296,419,209,210,0,84.6,17681.4,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0017,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN42493,2025-09-19,2026-09-29,43,702,303,399,0,21.48,6508.44,6508.44,Medix Wholesale,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0018,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,60s,BN40007,2024-09-10,2026-02-26,-172,172,42,130,42,22.14,929.88,929.88,BioCare Logistics,Shelf A-2,Expired,Optimal
+MED-0019,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN41850,2026-10-01,2028-01-06,507,196,29,167,0,56.87,1649.23,0,Apex Global Health,Shelf B-2,Safe,Low Stock
+MED-0020,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN98259,2026-01-24,2027-02-24,191,512,377,135,0,30.49,11494.73,0,PharmaLink Distribution,Shelf A-2,Safe,Overstocked
+MED-0021,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN28373,2026-01-04,2027-08-28,376,355,43,312,0,39.06,1679.58,0,OmniPharma Ltd.,Shelf A-1,Safe,Low Stock
+MED-0022,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN40982,2025-02-14,2026-10-18,62,318,122,196,0,76.95,9387.9,9387.9,Medix Wholesale,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0023,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,90s,BN69638,2026-07-05,2028-06-07,660,835,503,332,0,15.27,7680.81,0,Apex Global Health,Shelf A-2,Safe,Overstocked
+MED-0024,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN17492,2024-10-06,2026-06-20,-58,973,281,692,281,15.49,4352.69,4352.69,OmniPharma Ltd.,Shelf A-1,Expired,Optimal
+MED-0025,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,24s,BN98501,2026-11-03,2028-01-03,504,683,257,426,0,50.26,12916.82,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0026,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN44179,2025-05-27,2026-09-26,40,371,121,250,0,13.3,1609.3,1609.3,Apex Global Health,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0027,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN70068,2027-04-25,2028-06-14,667,175,59,116,0,44.24,2610.16,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0028,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,100s,BN47353,2024-10-30,2026-10-25,69,409,176,233,0,83.67,14725.92,14725.92,OmniPharma Ltd.,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0029,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN27601,2025-05-26,2027-03-05,200,259,74,185,0,25.74,1904.76,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0030,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN76244,2025-11-21,2027-01-07,143,749,438,311,0,70.92,31062.96,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0031,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN31178,2026-06-07,2028-06-02,655,537,292,245,0,3.3,963.6,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0032,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN86350,2026-11-26,2028-01-30,531,142,44,98,0,32.58,1433.52,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0033,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN56357,2026-02-23,2028-01-06,507,867,163,704,0,78.88,12857.44,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0034,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN33509,2026-03-26,2027-10-22,431,921,690,231,0,73.79,50915.1,0,Medix Wholesale,Shelf B-1,Safe,Overstocked
+MED-0035,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,48s,BN15075,2026-03-21,2027-07-01,318,936,476,460,0,31.35,14922.6,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0036,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,30s,BN62227,2025-09-06,2027-01-26,162,459,333,126,0,44.53,14828.49,0,OmniPharma Ltd.,Shelf B-1,Safe,Overstocked
+MED-0037,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,90s,BN33405,2026-07-26,2027-08-14,362,211,157,54,0,38.35,6020.95,0,Apex Global Health,Shelf B-2,Safe,Overstocked
+MED-0038,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN85574,2024-08-25,2026-08-22,5,546,20,526,0,45.39,907.8,907.8,OmniPharma Ltd.,Narcotics Safe,Critical (<30 Days),Low Stock
+MED-0039,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN66531,2025-02-19,2026-08-07,-10,738,170,568,170,57.23,9729.1,9729.1,PharmaLink Distribution,Narcotics Safe,Expired,Optimal
+MED-0040,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN52753,2025-12-05,2027-09-14,393,230,54,176,0,37.19,2008.26,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0041,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN81819,2026-04-30,2027-09-23,402,315,115,200,0,67.33,7742.95,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0042,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN67954,2026-08-24,2028-04-22,614,912,178,734,0,56.86,10121.08,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0043,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN40784,2026-03-25,2027-07-04,321,250,11,239,0,6.31,69.41,0,BioCare Logistics,Shelf C-1,Safe,Low Stock
+MED-0044,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN92544,2026-04-05,2027-12-14,484,509,129,380,0,14.67,1892.43,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0045,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN77889,2027-02-02,2028-06-08,661,968,129,839,0,40.16,5180.64,0,BioCare Logistics,Narcotics Safe,Safe,Low Stock
+MED-0046,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN90301,2026-09-10,2028-04-15,607,950,566,384,0,39.29,22238.14,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0047,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN42406,2025-12-03,2027-08-26,374,596,325,271,0,22.24,7228,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0048,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN45614,2027-04-12,2028-05-22,644,241,43,198,0,21.58,927.94,0,Medix Wholesale,Cold Storage 1,Safe,Optimal
+MED-0049,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN53369,2026-12-15,2028-01-15,516,311,218,93,0,37.16,8100.88,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0050,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,90s,BN72518,2024-12-18,2026-05-19,-90,871,209,662,209,72.91,15238.19,15238.19,BioCare Logistics,Shelf C-1,Expired,Optimal
+MED-0051,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN38760,2027-03-14,2028-03-27,588,498,177,321,0,57.68,10209.36,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0052,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN91560,2026-02-24,2027-12-24,494,677,32,645,0,9.43,301.76,0,BioCare Logistics,Shelf A-2,Safe,Low Stock
+MED-0053,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,90s,BN44099,2025-10-31,2027-06-20,307,434,177,257,0,65.3,11558.1,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0054,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN71644,2025-06-10,2026-07-06,-42,458,67,391,67,56.14,3761.38,3761.38,PharmaLink Distribution,Shelf A-1,Expired,Low Stock
+MED-0055,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN91439,2025-01-03,2026-09-02,16,785,78,707,0,49.03,3824.34,3824.34,Medix Wholesale,Shelf B-1,Critical (<30 Days),Low Stock
+MED-0056,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,50g,BN31465,2025-05-14,2027-03-06,201,126,44,82,0,50,2200,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0057,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN87607,2026-05-31,2027-07-22,339,813,313,500,0,72.65,22739.45,0,OmniPharma Ltd.,Cold Storage 1,Safe,Optimal
+MED-0058,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN79827,2026-10-26,2027-11-30,470,618,336,282,0,30.65,10298.4,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0059,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN93307,2026-03-04,2028-02-29,561,256,116,140,0,17.03,1975.48,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0060,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN67091,2027-02-28,2028-07-14,697,430,130,300,0,71.04,9235.2,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0061,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,100s,BN84691,2026-06-20,2027-12-09,479,129,68,61,0,72.7,4943.6,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0062,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN54608,2026-07-25,2028-07-18,701,382,289,93,0,3.34,965.26,0,Medix Wholesale,Shelf A-1,Safe,Overstocked
+MED-0063,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN82768,2026-04-22,2028-03-17,578,828,507,321,0,39.47,20011.29,0,PharmaLink Distribution,Shelf A-2,Safe,Overstocked
+MED-0064,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN50135,2026-03-31,2027-11-28,468,666,357,309,0,37.6,13423.2,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0065,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN50189,2025-12-11,2027-03-19,214,423,66,357,0,63.79,4210.14,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0066,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN87278,2026-07-06,2028-05-06,628,389,56,333,0,71.19,3986.64,0,Apex Global Health,Shelf A-2,Safe,Low Stock
+MED-0067,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,100g,BN11854,2025-11-05,2027-03-25,220,146,11,135,0,48.15,529.65,0,Medix Wholesale,Narcotics Safe,Safe,Low Stock
+MED-0068,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN85243,2026-08-08,2028-03-20,581,448,99,349,0,82.15,8132.85,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0069,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN74454,2024-08-12,2026-07-29,-19,154,19,135,19,14.81,281.39,281.39,OmniPharma Ltd.,Shelf B-1,Expired,Low Stock
+MED-0070,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,60s,BN83147,2026-09-27,2028-07-28,711,909,638,271,0,21.12,13474.56,0,OmniPharma Ltd.,Shelf B-2,Safe,Overstocked
+MED-0071,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,100s,BN87139,2025-12-07,2027-09-24,403,735,66,669,0,52.79,3484.14,0,PharmaLink Distribution,Shelf A-2,Safe,Low Stock
+MED-0072,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN96563,2025-01-22,2026-04-20,-119,665,48,617,48,15.41,739.68,739.68,BioCare Logistics,Shelf B-2,Expired,Low Stock
+MED-0073,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN14278,2025-06-24,2026-11-15,90,819,460,359,0,39.96,18381.6,18381.6,Medix Wholesale,Cold Storage 2,Near Expiry (31-90 Days),Optimal
+MED-0074,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN25043,2025-12-02,2027-04-17,243,946,150,796,0,8.39,1258.5,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0075,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN26299,2025-09-30,2027-09-23,402,512,144,368,0,43.79,6305.76,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0076,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,60s,BN66626,2027-03-21,2028-07-26,709,126,16,110,0,21.39,342.24,0,OmniPharma Ltd.,Shelf C-1,Safe,Low Stock
+MED-0077,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,90s,BN85529,2024-08-06,2026-04-03,-136,631,176,455,176,38.98,6860.48,6860.48,Apex Global Health,Shelf A-2,Expired,Optimal
+MED-0078,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN21959,2026-07-22,2028-01-08,509,428,58,370,0,73.26,4249.08,0,Apex Global Health,Shelf B-2,Safe,Low Stock
+MED-0079,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN96846,2027-05-15,2028-06-01,654,565,50,515,0,28.45,1422.5,0,Apex Global Health,Cold Storage 1,Safe,Low Stock
+MED-0080,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN96200,2026-08-05,2028-03-03,564,155,29,126,0,45.27,1312.83,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0081,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN36680,2025-11-03,2027-03-30,225,548,362,186,0,42.49,15381.38,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0082,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN50730,2026-11-08,2028-06-03,656,195,62,133,0,84.36,5230.32,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0083,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN48254,2026-01-22,2027-08-22,370,954,499,455,0,83.37,41601.63,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0084,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN34983,2027-02-10,2028-04-19,611,984,76,908,0,25.29,1922.04,0,BioCare Logistics,Shelf B-1,Safe,Low Stock
+MED-0085,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN47072,2026-09-17,2028-07-09,692,775,506,269,0,73.88,37383.28,0,BioCare Logistics,Shelf C-1,Safe,Overstocked
+MED-0086,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN82340,2026-04-18,2027-12-07,477,429,101,328,0,83.41,8424.41,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0087,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN15720,2026-03-19,2028-03-14,575,930,395,535,0,34.35,13568.25,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0088,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN23154,2026-12-20,2028-02-09,541,638,471,167,0,40.2,18934.2,0,Medix Wholesale,Shelf B-2,Safe,Overstocked
+MED-0089,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN71537,2026-02-22,2027-08-14,362,738,412,326,0,56.11,23117.32,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0090,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN92155,2026-06-26,2028-03-29,590,136,84,52,0,8.14,683.76,0,Apex Global Health,Shelf A-2,Safe,Overstocked
+MED-0091,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,60s,BN93066,2025-07-14,2027-02-26,193,270,182,88,0,27.21,4952.22,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0092,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN56984,2025-12-10,2027-04-14,240,643,215,428,0,49.19,10575.85,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0093,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,48s,BN91226,2026-06-15,2028-04-08,600,246,64,182,0,40.54,2594.56,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0094,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,20s,BN47700,2026-03-20,2027-04-26,252,552,181,371,0,83.98,15200.38,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0095,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN69878,2025-11-23,2027-06-07,294,973,499,474,0,11.3,5638.7,0,BioCare Logistics,Shelf C-1,Safe,Optimal
+MED-0096,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN12875,2026-08-08,2027-12-26,496,108,77,31,0,73.87,5687.99,0,PharmaLink Distribution,Shelf C-1,Safe,Overstocked
+MED-0097,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN89569,2025-08-07,2027-06-28,315,294,163,131,0,23.18,3778.34,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0098,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN67779,2025-03-16,2026-05-22,-87,192,47,145,47,29.45,1384.15,1384.15,BioCare Logistics,Shelf A-2,Expired,Optimal
+MED-0099,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN79579,2026-05-30,2027-08-22,370,363,251,112,0,82.31,20659.81,0,Apex Global Health,Narcotics Safe,Safe,Overstocked
+MED-0100,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN19869,2024-10-03,2026-09-14,28,841,365,476,0,83.35,30422.75,30422.75,OmniPharma Ltd.,Shelf B-1,Critical (<30 Days),Optimal
+MED-0101,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,60s,BN44663,2026-08-20,2028-02-24,556,788,273,515,0,50.73,13849.29,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0102,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN13280,2026-12-28,2028-06-12,665,724,231,493,0,55.93,12919.83,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0103,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN28320,2024-09-25,2026-02-27,-171,604,39,565,39,10.52,410.28,410.28,OmniPharma Ltd.,Shelf A-2,Expired,Low Stock
+MED-0104,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN97881,2026-10-21,2028-05-22,644,701,163,538,0,75.55,12314.65,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0105,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN14288,2025-11-11,2027-06-26,313,555,125,430,0,73.07,9133.75,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0106,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,50g,BN62184,2025-08-01,2027-03-21,216,193,59,134,0,55.44,3270.96,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0107,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN26505,2026-05-10,2027-06-14,301,949,572,377,0,19.59,11205.48,0,Medix Wholesale,Shelf A-2,Safe,Overstocked
+MED-0108,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN46342,2026-02-06,2027-04-13,239,653,261,392,0,68.38,17847.18,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0109,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,30s,BN56955,2025-09-19,2027-07-17,334,431,13,418,0,16.88,219.44,0,PharmaLink Distribution,Shelf A-2,Safe,Low Stock
+MED-0110,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN18330,2026-03-04,2027-11-21,461,707,116,591,0,39.79,4615.64,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0111,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN94323,2025-05-17,2027-01-17,153,967,416,551,0,37.67,15670.72,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0112,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN20589,2026-03-14,2027-04-16,242,229,75,154,0,54.01,4050.75,0,OmniPharma Ltd.,Cold Storage 2,Safe,Optimal
+MED-0113,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN69469,2026-12-11,2028-01-30,531,912,723,189,0,11.94,8632.62,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0114,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN39949,2026-08-03,2028-02-23,555,525,378,147,0,10.34,3908.52,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0115,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN30006,2027-02-10,2028-03-15,576,193,26,167,0,10.19,264.94,0,PharmaLink Distribution,Narcotics Safe,Safe,Low Stock
+MED-0116,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,50g,BN86869,2026-12-28,2028-06-13,666,786,130,656,0,36.39,4730.7,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0117,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN56090,2025-07-04,2026-10-20,64,258,143,115,0,21,3003,3003,PharmaLink Distribution,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0118,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN46512,2026-04-17,2028-01-29,530,885,641,244,0,53.12,34049.92,0,OmniPharma Ltd.,Shelf A-1,Safe,Overstocked
+MED-0119,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN33647,2026-04-08,2027-09-28,407,459,8,451,0,17.47,139.76,0,Medix Wholesale,Shelf C-1,Safe,Low Stock
+MED-0120,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN28595,2025-11-01,2026-12-17,122,864,548,316,0,20.25,11097,0,BioCare Logistics,Shelf B-2,Safe,Overstocked
+MED-0121,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN50846,2026-08-19,2028-06-19,672,186,18,168,0,15.34,276.12,0,OmniPharma Ltd.,Shelf A-1,Safe,Low Stock
+MED-0122,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN68079,2026-05-22,2028-03-27,588,552,217,335,0,25.04,5433.68,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0123,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,50g,BN47125,2026-11-09,2028-07-15,698,639,346,293,0,27.94,9667.24,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0124,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN36794,2026-04-11,2027-06-20,307,882,266,616,0,26.38,7017.08,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0125,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN26932,2025-10-26,2027-07-09,326,672,367,305,0,8.45,3101.15,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0126,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,30s,BN51033,2026-12-01,2028-06-25,678,826,660,166,0,36.96,24393.6,0,PharmaLink Distribution,Shelf B-2,Safe,Overstocked
+MED-0127,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,30s,BN91018,2026-10-07,2027-11-21,461,547,437,110,0,11.23,4907.51,0,BioCare Logistics,Shelf C-1,Safe,Overstocked
+MED-0128,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN61873,2026-07-08,2027-10-29,438,441,91,350,0,8.8,800.8,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0129,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN56019,2025-12-17,2027-04-16,242,205,42,163,0,23.62,992.04,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0130,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN92306,2026-08-24,2028-06-15,668,559,353,206,0,78.74,27795.22,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0131,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN29786,2026-07-28,2028-03-10,571,746,315,431,0,68.2,21483,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0132,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,100g,BN70521,2025-07-09,2027-01-13,149,951,298,653,0,8.83,2631.34,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0133,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN86064,2025-05-12,2026-12-28,133,929,590,339,0,56.28,33205.2,0,Apex Global Health,Shelf C-1,Safe,Overstocked
+MED-0134,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN69050,2024-09-29,2026-09-29,43,186,84,102,0,55.81,4688.04,4688.04,PharmaLink Distribution,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0135,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN78690,2025-10-23,2027-04-27,253,481,149,332,0,34.46,5134.54,0,Apex Global Health,Cold Storage 1,Safe,Optimal
+MED-0136,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN53213,2025-01-25,2026-08-10,-7,390,74,316,74,62.21,4603.54,4603.54,OmniPharma Ltd.,Shelf A-2,Expired,Optimal
+MED-0137,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN55851,2026-10-17,2027-12-22,492,709,91,618,0,28.04,2551.64,0,BioCare Logistics,Narcotics Safe,Safe,Low Stock
+MED-0138,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN94675,2026-10-17,2028-04-19,611,118,51,67,0,27.98,1426.98,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0139,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN28030,2025-08-03,2026-09-23,37,619,296,323,0,71.4,21134.4,21134.4,OmniPharma Ltd.,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0140,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN88282,2026-01-29,2027-05-01,257,951,714,237,0,66.12,47209.68,0,Medix Wholesale,Narcotics Safe,Safe,Overstocked
+MED-0141,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,100s,BN57749,2025-12-02,2027-07-17,334,725,296,429,0,64.57,19112.72,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0142,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN71474,2025-11-26,2027-06-02,289,794,589,205,0,83.72,49311.08,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0143,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN31241,2027-05-19,2028-07-27,710,993,261,732,0,6.8,1774.8,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0144,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN47363,2024-11-12,2026-03-31,-139,560,141,419,141,14.66,2067.06,2067.06,BioCare Logistics,Shelf A-1,Expired,Optimal
+MED-0145,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN13495,2026-04-13,2027-12-26,496,482,125,357,0,34.36,4295,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0146,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN29142,2025-01-24,2026-09-22,36,812,445,367,0,13.95,6207.75,6207.75,BioCare Logistics,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0147,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN12490,2025-07-12,2027-04-18,244,844,628,216,0,46.04,28913.12,0,PharmaLink Distribution,Shelf B-1,Safe,Overstocked
+MED-0148,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN16258,2024-12-23,2026-11-06,81,568,52,516,0,11.65,605.8,605.8,BioCare Logistics,Cold Storage 1,Near Expiry (31-90 Days),Low Stock
+MED-0149,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN48177,2027-02-08,2028-08-06,720,346,218,128,0,17.95,3913.1,0,PharmaLink Distribution,Shelf C-1,Safe,Overstocked
+MED-0150,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,50g,BN61177,2025-02-08,2026-12-30,135,496,196,300,0,23.43,4592.28,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0151,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,60s,BN96127,2027-01-15,2028-07-03,686,236,16,220,0,31.56,504.96,0,Apex Global Health,Narcotics Safe,Safe,Low Stock
+MED-0152,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN92802,2025-08-02,2026-09-03,17,833,417,416,0,80.35,33505.95,33505.95,PharmaLink Distribution,Shelf B-1,Critical (<30 Days),Optimal
+MED-0153,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN15492,2026-01-09,2027-09-29,408,507,283,224,0,41.56,11761.48,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0154,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN16265,2026-06-04,2027-10-21,430,227,99,128,0,38.55,3816.45,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0155,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,100s,BN34486,2026-10-03,2028-04-08,600,916,536,380,0,24.5,13132,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0156,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN88964,2025-08-13,2027-05-19,275,400,169,231,0,10.96,1852.24,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0157,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN88986,2025-05-17,2027-05-05,261,554,184,370,0,39.39,7247.76,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0158,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN19835,2026-07-03,2028-01-05,506,625,415,210,0,64.37,26713.55,0,Medix Wholesale,Shelf A-1,Safe,Overstocked
+MED-0159,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN26545,2025-01-27,2026-08-02,-15,470,108,362,108,80.83,8729.64,8729.64,PharmaLink Distribution,Shelf C-1,Expired,Optimal
+MED-0160,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN58760,2025-04-15,2027-02-02,169,240,140,100,0,32.77,4587.8,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0161,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN13396,2026-07-20,2028-04-10,602,496,292,204,0,12.22,3568.24,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0162,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,100s,BN74382,2025-07-28,2026-09-03,17,562,108,454,0,76.64,8277.12,8277.12,BioCare Logistics,Shelf A-1,Critical (<30 Days),Optimal
+MED-0163,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN18511,2026-04-09,2027-09-09,388,971,166,805,0,61.22,10162.52,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0164,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN36342,2025-11-06,2027-07-16,333,126,51,75,0,48.21,2458.71,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0165,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN18617,2026-06-25,2028-03-20,581,520,398,122,0,36.28,14439.44,0,OmniPharma Ltd.,Shelf A-1,Safe,Overstocked
+MED-0166,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN68979,2026-11-04,2028-04-28,620,231,146,85,0,55.28,8070.88,0,Medix Wholesale,Shelf A-2,Safe,Overstocked
+MED-0167,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN26274,2026-07-01,2027-09-23,402,265,87,178,0,79.62,6926.94,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0168,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN42847,2025-06-08,2026-10-26,70,228,100,128,0,27.48,2748,2748,OmniPharma Ltd.,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0169,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN32439,2027-02-06,2028-07-27,710,962,582,380,0,5.9,3433.8,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0170,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN84991,2025-04-07,2026-12-17,122,742,563,179,0,26.4,14863.2,0,Apex Global Health,Shelf B-2,Safe,Overstocked
+MED-0171,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN69446,2024-12-15,2026-03-05,-165,550,116,434,116,42.45,4924.2,4924.2,Medix Wholesale,Shelf A-2,Expired,Optimal
+MED-0172,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN62260,2025-01-13,2026-10-03,47,675,74,601,0,28.83,2133.42,2133.42,BioCare Logistics,Shelf A-1,Near Expiry (31-90 Days),Low Stock
+MED-0173,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,14s,BN28465,2024-10-19,2026-05-03,-106,984,325,659,325,37,12025,12025,Medix Wholesale,Shelf B-1,Expired,Optimal
+MED-0174,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN30885,2026-08-31,2028-04-26,618,610,455,155,0,27.95,12717.25,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0175,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN41552,2025-09-07,2026-10-01,45,151,56,95,0,43.33,2426.48,2426.48,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0176,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN66482,2025-03-16,2026-09-19,33,882,226,656,0,32.69,7387.94,7387.94,BioCare Logistics,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0177,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN82512,2026-04-02,2027-12-16,486,561,396,165,0,47.86,18952.56,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0178,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN22672,2026-01-17,2027-10-29,438,474,78,396,0,18.92,1475.76,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0179,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN15100,2025-01-29,2026-09-28,42,631,253,378,0,14.79,3741.87,3741.87,OmniPharma Ltd.,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0180,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN61505,2025-11-19,2027-09-18,397,444,264,180,0,70.83,18699.12,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0181,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN12180,2025-08-07,2027-03-08,203,697,320,377,0,68.23,21833.6,0,PharmaLink Distribution,Cold Storage 2,Safe,Optimal
+MED-0182,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN86483,2026-06-18,2028-05-05,627,838,639,199,0,66.41,42435.99,0,BioCare Logistics,Shelf A-2,Safe,Overstocked
+MED-0183,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN85047,2025-12-01,2027-03-08,203,119,61,58,0,28.38,1731.18,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0184,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN75774,2027-02-10,2028-03-12,573,822,146,676,0,45.29,6612.34,0,OmniPharma Ltd.,Cold Storage 2,Safe,Optimal
+MED-0185,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN51124,2026-06-02,2028-02-29,561,450,284,166,0,31.73,9011.32,0,Apex Global Health,Shelf C-1,Safe,Overstocked
+MED-0186,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN46569,2026-02-02,2027-07-04,321,889,300,589,0,60.65,18195,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0187,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN47721,2025-02-06,2026-11-11,86,488,222,266,0,70.02,15544.44,15544.44,Medix Wholesale,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0188,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN55398,2025-12-03,2027-08-05,353,319,56,263,0,70.81,3965.36,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0189,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN24316,2027-03-09,2028-07-08,691,348,30,318,0,57.76,1732.8,0,OmniPharma Ltd.,Cold Storage 1,Safe,Low Stock
+MED-0190,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN23133,2027-01-22,2028-03-13,574,797,145,652,0,2.93,424.85,0,OmniPharma Ltd.,Shelf A-2,Safe,Optimal
+MED-0191,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN72580,2026-03-26,2027-09-06,385,392,35,357,0,77.4,2709,0,PharmaLink Distribution,Narcotics Safe,Safe,Low Stock
+MED-0192,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN32946,2026-04-27,2027-05-15,271,956,411,545,0,67.51,27746.61,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0193,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN49110,2025-09-15,2027-03-05,200,391,237,154,0,84.1,19931.7,0,OmniPharma Ltd.,Shelf C-1,Safe,Overstocked
+MED-0194,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN45761,2025-03-15,2026-08-31,14,266,137,129,0,55.98,7669.26,7669.26,Medix Wholesale,Shelf A-1,Critical (<30 Days),Optimal
+MED-0195,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN33002,2026-06-01,2028-01-05,506,627,172,455,0,9.66,1661.52,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0196,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN42512,2025-01-27,2026-05-27,-82,557,202,355,202,24.53,4955.06,4955.06,Apex Global Health,Shelf B-1,Expired,Optimal
+MED-0197,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN95679,2026-06-14,2027-07-15,332,783,126,657,0,40.9,5153.4,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0198,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN93717,2026-03-10,2027-09-14,393,729,231,498,0,20.58,4753.98,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0199,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN64505,2026-06-11,2028-03-12,573,921,685,236,0,70.61,48367.85,0,Medix Wholesale,Narcotics Safe,Safe,Overstocked
+MED-0200,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN79228,2025-04-21,2027-02-03,170,214,20,194,0,70.87,1417.4,0,OmniPharma Ltd.,Shelf A-2,Safe,Low Stock
+MED-0201,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN53007,2026-12-14,2028-02-11,543,796,215,581,0,61.65,13254.75,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0202,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN69432,2025-02-18,2026-10-09,53,677,49,628,0,48.6,2381.4,2381.4,Apex Global Health,Narcotics Safe,Near Expiry (31-90 Days),Low Stock
+MED-0203,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,90s,BN10395,2027-05-25,2028-06-30,683,146,59,87,0,30.92,1824.28,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0204,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN14159,2026-03-11,2027-05-19,275,884,661,223,0,83.21,55001.81,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0205,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN59236,2024-11-03,2026-08-06,-11,236,93,143,93,73.47,6832.71,6832.71,PharmaLink Distribution,Shelf A-2,Expired,Optimal
+MED-0206,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN39188,2025-07-10,2026-12-09,114,574,349,225,0,61.83,21578.67,0,BioCare Logistics,Shelf C-1,Safe,Overstocked
+MED-0207,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN70375,2026-05-21,2027-08-25,373,996,747,249,0,65.65,49040.55,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0208,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN41544,2024-10-29,2026-08-29,12,134,48,86,0,51.82,2487.36,2487.36,PharmaLink Distribution,Shelf A-2,Critical (<30 Days),Optimal
+MED-0209,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN40715,2025-11-02,2027-01-12,148,615,153,462,0,21.82,3338.46,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0210,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN49552,2027-01-10,2028-05-02,624,523,158,365,0,25.2,3981.6,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0211,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN16145,2026-03-18,2027-12-11,481,426,218,208,0,36.18,7887.24,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0212,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN39536,2025-08-18,2027-04-12,238,159,76,83,0,36.55,2777.8,0,BioCare Logistics,Shelf C-1,Safe,Optimal
+MED-0213,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN41831,2025-11-23,2027-10-20,429,180,120,60,0,72.39,8686.8,0,PharmaLink Distribution,Shelf C-1,Safe,Overstocked
+MED-0214,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN59436,2027-07-06,2028-07-25,708,994,79,915,0,18.02,1423.58,0,OmniPharma Ltd.,Narcotics Safe,Safe,Low Stock
+MED-0215,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN37379,2026-05-20,2027-10-22,431,115,32,83,0,79.82,2554.24,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0216,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN61987,2026-12-22,2028-06-03,656,894,294,600,0,33.9,9966.6,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0217,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN57139,2026-08-14,2028-04-08,600,200,125,75,0,65.33,8166.25,0,Apex Global Health,Shelf A-2,Safe,Overstocked
+MED-0218,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN15992,2026-04-17,2027-06-30,317,116,38,78,0,48.15,1829.7,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0219,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN35715,2026-02-21,2027-12-09,479,953,256,697,0,43.69,11184.64,0,Apex Global Health,Shelf B-1,Safe,Optimal
+MED-0220,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN32050,2026-08-17,2027-11-11,451,243,189,54,0,47.59,8994.51,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0221,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN19742,2026-01-01,2027-01-04,140,522,75,447,0,72.01,5400.75,0,Medix Wholesale,Shelf A-1,Safe,Low Stock
+MED-0222,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN38668,2026-11-03,2027-12-03,473,732,499,233,0,56.89,28388.11,0,PharmaLink Distribution,Cold Storage 1,Safe,Overstocked
+MED-0223,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN12192,2025-11-23,2027-08-24,372,393,13,380,0,43.93,571.09,0,BioCare Logistics,Shelf A-2,Safe,Low Stock
+MED-0224,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN41584,2025-06-16,2026-10-23,67,934,382,552,0,24.55,9378.1,9378.1,BioCare Logistics,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0225,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN84055,2025-07-22,2026-11-14,89,407,195,212,0,70.82,13809.9,13809.9,PharmaLink Distribution,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0226,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN63120,2026-10-04,2028-06-03,656,157,86,71,0,3.28,282.08,0,Medix Wholesale,Shelf A-1,Safe,Optimal
+MED-0227,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN84167,2025-05-27,2027-02-21,188,143,34,109,0,19.94,677.96,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0228,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN99709,2026-08-11,2028-05-25,647,773,38,735,0,17.3,657.4,0,Apex Global Health,Shelf A-1,Safe,Low Stock
+MED-0229,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN20084,2027-02-13,2028-06-15,668,680,403,277,0,58.36,23519.08,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0230,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN20279,2026-10-09,2027-11-05,445,200,116,84,0,21.65,2511.4,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0231,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN13883,2026-06-14,2028-02-20,552,333,187,146,0,48.13,9000.31,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0232,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN91083,2025-07-26,2027-07-26,343,175,26,149,0,24.61,639.86,0,BioCare Logistics,Narcotics Safe,Safe,Low Stock
+MED-0233,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN51507,2026-02-15,2027-02-17,184,415,232,183,0,32.19,7468.08,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0234,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN66489,2026-09-18,2028-06-06,659,517,57,460,0,4.67,266.19,0,Apex Global Health,Shelf C-1,Safe,Low Stock
+MED-0235,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,100s,BN60493,2024-11-17,2026-06-03,-75,897,53,844,53,62.3,3301.9,3301.9,OmniPharma Ltd.,Shelf A-2,Expired,Low Stock
+MED-0236,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN32216,2025-05-10,2026-09-24,38,604,94,510,0,7.72,725.68,725.68,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0237,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN20082,2025-09-09,2027-07-26,343,607,309,298,0,53.38,16494.42,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0238,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN61864,2027-01-31,2028-08-12,726,923,342,581,0,38.82,13276.44,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0239,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN52030,2025-10-07,2027-06-09,296,421,95,326,0,82.08,7797.6,0,Apex Global Health,Shelf B-1,Safe,Optimal
+MED-0240,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN52714,2026-06-20,2027-12-23,493,216,149,67,0,18.98,2828.02,0,OmniPharma Ltd.,Cold Storage 1,Safe,Overstocked
+MED-0241,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN37479,2025-09-21,2027-09-10,389,170,109,61,0,58.02,6324.18,0,Medix Wholesale,Narcotics Safe,Safe,Overstocked
+MED-0242,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN96332,2025-03-31,2026-10-10,54,175,77,98,0,84.23,6485.71,6485.71,BioCare Logistics,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0243,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN81256,2024-05-27,2026-05-21,-88,931,284,647,284,51.49,14623.16,14623.16,PharmaLink Distribution,Shelf A-1,Expired,Optimal
+MED-0244,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN94803,2026-07-20,2028-06-14,667,793,414,379,0,82.26,34055.64,0,Apex Global Health,Cold Storage 2,Safe,Optimal
+MED-0245,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN43913,2025-01-10,2026-10-22,66,694,372,322,0,49.96,18585.12,18585.12,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0246,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN55215,2027-01-31,2028-03-24,585,402,217,185,0,78.45,17023.65,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0247,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN54966,2025-09-22,2027-06-15,302,594,183,411,0,41.78,7645.74,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0248,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN18804,2026-03-02,2027-03-13,208,969,356,613,0,55.96,19921.76,0,Medix Wholesale,Cold Storage 1,Safe,Optimal
+MED-0249,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN53383,2026-11-06,2028-03-03,564,916,419,497,0,54.46,22818.74,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0250,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN13826,2025-10-19,2027-06-06,293,706,444,262,0,34.58,15353.52,0,Medix Wholesale,Shelf A-2,Safe,Overstocked
+MED-0251,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN80371,2025-06-19,2026-09-27,41,568,78,490,0,24.14,1882.92,1882.92,BioCare Logistics,Shelf C-1,Near Expiry (31-90 Days),Low Stock
+MED-0252,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN90125,2025-09-15,2027-03-12,207,460,239,221,0,53.43,12769.77,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0253,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN51049,2025-07-28,2026-09-25,39,287,115,172,0,59.71,6866.65,6866.65,OmniPharma Ltd.,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0254,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN85340,2025-09-18,2027-05-25,281,750,555,195,0,59.71,33139.05,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0255,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN28388,2024-11-30,2026-10-13,57,154,65,89,0,81.03,5266.95,5266.95,BioCare Logistics,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0256,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN63626,2026-01-17,2028-01-15,516,960,459,501,0,42.82,19654.38,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0257,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,90s,BN14285,2026-12-24,2028-05-19,641,272,204,68,0,40.23,8206.92,0,BioCare Logistics,Shelf C-1,Safe,Overstocked
+MED-0258,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN45112,2026-02-22,2027-11-26,466,942,47,895,0,65.2,3064.4,0,BioCare Logistics,Shelf C-1,Safe,Low Stock
+MED-0259,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,14s,BN95678,2026-08-31,2027-09-16,395,560,139,421,0,31.26,4345.14,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0260,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN87060,2026-09-13,2028-08-01,715,538,89,449,0,53.33,4746.37,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0261,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN88231,2025-10-18,2027-10-13,422,399,153,246,0,49.75,7611.75,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0262,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN17770,2025-03-31,2027-03-25,220,986,140,846,0,23.1,3234,0,Apex Global Health,Shelf A-2,Safe,Low Stock
+MED-0263,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN28634,2025-10-01,2027-08-18,366,524,197,327,0,39.79,7838.63,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0264,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN69597,2025-12-24,2027-10-17,426,102,16,86,0,62.8,1004.8,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0265,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN80048,2026-10-13,2028-01-29,530,606,142,464,0,29.14,4137.88,0,Apex Global Health,Shelf B-1,Safe,Optimal
+MED-0266,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN55054,2025-12-12,2027-01-04,140,201,122,79,0,3.84,468.48,0,Medix Wholesale,Shelf B-2,Safe,Overstocked
+MED-0267,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,100s,BN36518,2025-05-03,2027-03-31,226,409,86,323,0,74.64,6419.04,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0268,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN20803,2026-04-08,2027-05-04,260,505,325,180,0,27.7,9002.5,0,Medix Wholesale,Shelf B-2,Safe,Overstocked
+MED-0269,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN10142,2025-06-20,2026-08-26,9,707,135,572,0,45.35,6122.25,6122.25,BioCare Logistics,Shelf A-1,Critical (<30 Days),Optimal
+MED-0270,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,90s,BN25806,2026-02-01,2028-01-22,523,235,127,108,0,8.34,1059.18,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0271,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN58177,2025-09-22,2027-04-05,231,892,141,751,0,55.43,7815.63,0,Medix Wholesale,Shelf A-1,Safe,Optimal
+MED-0272,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN67684,2025-08-05,2027-06-22,309,866,160,706,0,78.39,12542.4,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0273,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,90s,BN23168,2024-11-04,2026-09-01,15,847,216,631,0,31.5,6804,6804,BioCare Logistics,Shelf B-1,Critical (<30 Days),Optimal
+MED-0274,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN94491,2024-09-05,2026-07-09,-39,714,155,559,155,66.76,10347.8,10347.8,PharmaLink Distribution,Narcotics Safe,Expired,Optimal
+MED-0275,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN61347,2025-09-10,2027-01-10,146,606,202,404,0,11.8,2383.6,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0276,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN57329,2025-09-14,2027-03-31,226,981,587,394,0,37.22,21848.14,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0277,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN12187,2025-07-19,2026-11-30,105,320,15,305,0,78.61,1179.15,0,BioCare Logistics,Shelf C-1,Safe,Low Stock
+MED-0278,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN62727,2024-10-03,2026-07-05,-43,730,88,642,88,25.39,2234.32,2234.32,Apex Global Health,Shelf A-1,Expired,Low Stock
+MED-0279,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN80305,2026-08-19,2028-07-08,691,881,670,211,0,58.69,39322.3,0,PharmaLink Distribution,Shelf B-1,Safe,Overstocked
+MED-0280,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN17589,2025-08-13,2026-10-11,55,564,333,231,0,52.73,17559.09,17559.09,Apex Global Health,Cold Storage 1,Near Expiry (31-90 Days),Optimal
+MED-0281,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN11487,2025-01-06,2026-09-30,44,629,152,477,0,16.27,2473.04,2473.04,Medix Wholesale,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0282,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN53910,2025-11-26,2027-08-21,369,165,72,93,0,61.27,4411.44,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0283,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN76949,2026-06-25,2028-04-10,602,270,99,171,0,15.48,1532.52,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0284,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN76692,2024-10-19,2026-02-21,-177,147,40,107,40,32.53,1301.2,1301.2,Medix Wholesale,Shelf A-2,Expired,Optimal
+MED-0285,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN52179,2025-05-11,2026-09-26,40,945,99,846,0,49.65,4915.35,4915.35,PharmaLink Distribution,Shelf C-1,Near Expiry (31-90 Days),Low Stock
+MED-0286,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN39253,2025-06-11,2027-01-02,138,170,124,46,0,73.95,9169.8,0,Apex Global Health,Shelf B-1,Safe,Overstocked
+MED-0287,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,100s,BN11044,2025-11-26,2027-09-10,389,903,316,587,0,63.52,20072.32,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0288,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,50g,BN81638,2026-05-09,2027-07-25,342,106,57,49,0,4.47,254.79,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0289,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN10191,2026-07-02,2027-12-06,476,206,57,149,0,46.21,2633.97,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0290,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN46677,2024-07-26,2026-04-18,-121,522,189,333,189,76.39,14437.71,14437.71,BioCare Logistics,Narcotics Safe,Expired,Optimal
+MED-0291,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,60s,BN76247,2025-08-29,2026-10-06,50,706,310,396,0,7.64,2368.4,2368.4,Medix Wholesale,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0292,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN61505,2026-05-07,2027-10-16,425,563,144,419,0,21.77,3134.88,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0293,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN23848,2025-05-08,2026-10-15,59,516,81,435,0,46.71,3783.51,3783.51,Medix Wholesale,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0294,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN25717,2025-03-10,2026-08-12,-5,946,370,576,370,59.99,22196.3,22196.3,PharmaLink Distribution,Shelf A-2,Expired,Optimal
+MED-0295,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN42534,2026-04-08,2027-12-26,496,150,91,59,0,27.15,2470.65,0,Medix Wholesale,Shelf A-1,Safe,Overstocked
+MED-0296,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN22415,2026-02-05,2027-04-08,234,112,12,100,0,71.01,852.12,0,Medix Wholesale,Shelf A-2,Safe,Low Stock
+MED-0297,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN99952,2025-04-18,2027-02-10,177,700,270,430,0,78.19,21111.3,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0298,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,100s,BN26880,2025-03-12,2026-05-13,-96,143,39,104,39,6.68,260.52,260.52,OmniPharma Ltd.,Shelf B-2,Expired,Optimal
+MED-0299,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN60165,2025-11-11,2027-05-11,267,319,237,82,0,17.94,4251.78,0,Apex Global Health,Shelf B-2,Safe,Overstocked
+MED-0300,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN94840,2026-04-05,2028-01-11,512,590,36,554,0,9.74,350.64,0,BioCare Logistics,Shelf A-2,Safe,Low Stock
+MED-0301,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN92674,2027-05-17,2028-05-25,647,491,370,121,0,32.13,11888.1,0,OmniPharma Ltd.,Shelf B-2,Safe,Overstocked
+MED-0302,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN45446,2024-11-25,2026-09-26,40,324,27,297,0,76.4,2062.8,2062.8,Apex Global Health,Shelf A-1,Near Expiry (31-90 Days),Low Stock
+MED-0303,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN30922,2025-07-09,2026-11-09,84,372,156,216,0,69.84,10895.04,10895.04,PharmaLink Distribution,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0304,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN32768,2025-05-22,2026-10-31,75,925,387,538,0,77.9,30147.3,30147.3,PharmaLink Distribution,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0305,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN83807,2026-07-01,2028-04-03,595,416,94,322,0,42.96,4038.24,0,PharmaLink Distribution,Cold Storage 1,Safe,Optimal
+MED-0306,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN79002,2025-12-11,2027-10-21,430,306,211,95,0,13.27,2799.97,0,Medix Wholesale,Cold Storage 2,Safe,Overstocked
+MED-0307,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN86888,2026-02-13,2027-04-10,236,966,543,423,0,73.51,39915.93,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0308,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN54113,2026-01-14,2027-04-04,230,849,452,397,0,67.83,30659.16,0,BioCare Logistics,Cold Storage 2,Safe,Optimal
+MED-0309,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN97232,2025-11-02,2027-05-14,270,414,155,259,0,13.01,2016.55,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0310,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN33865,2027-04-13,2028-08-03,717,754,584,170,0,11.09,6476.56,0,BioCare Logistics,Shelf A-2,Safe,Overstocked
+MED-0311,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN55457,2025-06-15,2027-05-06,262,190,90,100,0,39.35,3541.5,0,Apex Global Health,Shelf A-2,Safe,Optimal
+MED-0312,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN43640,2025-10-24,2026-11-17,92,495,229,266,0,62.94,14413.26,0,Medix Wholesale,Cold Storage 2,Safe,Optimal
+MED-0313,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN23294,2026-08-01,2028-06-29,682,876,235,641,0,15.92,3741.2,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0314,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN44226,2025-08-08,2027-01-30,166,274,101,173,0,15.77,1592.77,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0315,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN14062,2025-06-27,2027-05-03,259,544,85,459,0,6.92,588.2,0,Apex Global Health,Shelf A-2,Safe,Optimal
+MED-0316,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN96585,2026-05-29,2027-07-17,334,150,55,95,0,49.67,2731.85,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0317,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN66047,2024-09-20,2026-08-06,-11,714,255,459,255,18.97,4837.35,4837.35,PharmaLink Distribution,Shelf A-2,Expired,Optimal
+MED-0318,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN72071,2026-03-08,2027-09-27,406,582,255,327,0,76.33,19464.15,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0319,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN58630,2026-08-26,2027-11-29,469,556,27,529,0,24.22,653.94,0,BioCare Logistics,Shelf B-1,Safe,Low Stock
+MED-0320,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN29808,2026-01-11,2027-02-23,190,784,357,427,0,69.17,24693.69,0,BioCare Logistics,Cold Storage 1,Safe,Optimal
+MED-0321,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN78495,2026-06-01,2028-05-17,639,987,491,496,0,49.75,24427.25,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0322,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN14551,2026-07-11,2028-04-28,620,793,155,638,0,12.42,1925.1,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0323,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,24s,BN26539,2024-03-26,2026-03-10,-160,545,61,484,61,84.77,5170.97,5170.97,Medix Wholesale,Shelf C-1,Expired,Low Stock
+MED-0324,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,14s,BN21406,2026-03-20,2027-12-27,497,433,146,287,0,45.37,6624.02,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0325,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN64321,2024-12-31,2026-10-28,72,696,408,288,0,82.1,33496.8,33496.8,PharmaLink Distribution,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0326,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN80206,2026-08-28,2028-01-10,511,492,340,152,0,42.56,14470.4,0,OmniPharma Ltd.,Shelf B-2,Safe,Overstocked
+MED-0327,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN62818,2024-11-19,2026-11-02,77,810,225,585,0,5.7,1282.5,1282.5,Apex Global Health,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0328,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN45203,2025-06-17,2026-12-06,111,937,315,622,0,28.15,8867.25,0,BioCare Logistics,Cold Storage 1,Safe,Optimal
+MED-0329,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN68079,2026-05-26,2027-10-10,419,846,431,415,0,52.41,22588.71,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0330,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN77698,2025-04-24,2027-01-12,148,910,167,743,0,7.91,1320.97,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0331,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN35265,2026-05-11,2027-06-09,296,355,21,334,0,40.16,843.36,0,Apex Global Health,Narcotics Safe,Safe,Low Stock
+MED-0332,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN70846,2025-04-08,2027-03-22,217,131,35,96,0,33.23,1163.05,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0333,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN55121,2024-10-02,2026-09-19,33,192,56,136,0,4.76,266.56,266.56,PharmaLink Distribution,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0334,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN94853,2025-04-28,2026-09-12,26,767,229,538,0,44.85,10270.65,10270.65,PharmaLink Distribution,Shelf B-2,Critical (<30 Days),Optimal
+MED-0335,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN39329,2025-09-25,2027-09-24,403,826,286,540,0,37.46,10713.56,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0336,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,90s,BN71171,2026-06-18,2028-05-02,624,506,304,202,0,10.94,3325.76,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0337,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN99707,2025-03-06,2026-08-25,8,383,183,200,0,29.32,5365.56,5365.56,Apex Global Health,Shelf B-1,Critical (<30 Days),Optimal
+MED-0338,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN29651,2026-06-21,2027-07-20,337,924,619,305,0,35.84,22184.96,0,Apex Global Health,Narcotics Safe,Safe,Overstocked
+MED-0339,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN48745,2026-06-25,2028-01-18,519,497,382,115,0,5.41,2066.62,0,OmniPharma Ltd.,Shelf A-2,Safe,Overstocked
+MED-0340,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN98063,2026-06-24,2027-09-19,398,960,678,282,0,74.81,50721.18,0,Medix Wholesale,Shelf B-1,Safe,Overstocked
+MED-0341,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN43902,2027-03-10,2028-06-10,663,796,348,448,0,56.49,19658.52,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0342,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN53426,2027-02-08,2028-07-07,690,574,440,134,0,12.22,5376.8,0,PharmaLink Distribution,Cold Storage 1,Safe,Overstocked
+MED-0343,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN99220,2026-02-18,2027-09-17,396,155,116,39,0,72.97,8464.52,0,Medix Wholesale,Shelf A-2,Safe,Overstocked
+MED-0344,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN28772,2026-04-08,2027-05-19,275,599,175,424,0,54.56,9548,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0345,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN69251,2025-07-16,2027-05-07,263,882,167,715,0,42.89,7162.63,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0346,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN62873,2026-09-04,2028-03-18,579,104,9,95,0,46.54,418.86,0,Apex Global Health,Shelf A-1,Safe,Low Stock
+MED-0347,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN98702,2024-12-28,2026-04-22,-117,810,186,624,186,28.25,5254.5,5254.5,PharmaLink Distribution,Shelf B-2,Expired,Optimal
+MED-0348,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN18557,2026-04-22,2027-09-17,396,566,377,189,0,45.42,17123.34,0,OmniPharma Ltd.,Shelf B-1,Safe,Overstocked
+MED-0349,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN54922,2026-09-30,2028-03-31,592,868,197,671,0,16.1,3171.7,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0350,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN37681,2026-10-27,2028-07-11,694,273,36,237,0,32.74,1178.64,0,PharmaLink Distribution,Narcotics Safe,Safe,Low Stock
+MED-0351,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN96765,2025-07-26,2026-08-19,2,806,79,727,0,36.88,2913.52,2913.52,BioCare Logistics,Shelf A-1,Critical (<30 Days),Low Stock
+MED-0352,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN30070,2024-12-25,2026-11-12,87,109,39,70,0,37.22,1451.58,1451.58,PharmaLink Distribution,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0353,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN64896,2025-06-15,2027-03-03,198,836,637,199,0,12.21,7777.77,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0354,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN44471,2025-12-09,2027-06-10,297,820,424,396,0,26.87,11392.88,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0355,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN53332,2024-09-09,2026-08-18,1,191,34,157,0,71.41,2427.94,2427.94,BioCare Logistics,Shelf A-2,Critical (<30 Days),Optimal
+MED-0356,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,60s,BN23276,2025-11-19,2027-07-10,327,403,140,263,0,40.8,5712,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0357,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN98705,2026-01-25,2027-03-14,209,971,51,920,0,3.3,168.3,0,Medix Wholesale,Narcotics Safe,Safe,Low Stock
+MED-0358,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN56861,2027-03-30,2028-08-13,727,999,755,244,0,10.17,7678.35,0,Apex Global Health,Shelf A-2,Safe,Overstocked
+MED-0359,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN69839,2025-12-27,2027-12-15,485,971,494,477,0,68.49,33834.06,0,Medix Wholesale,Shelf A-1,Safe,Optimal
+MED-0360,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN23593,2026-11-08,2028-07-12,695,921,587,334,0,58.47,34321.89,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0361,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN99714,2025-07-25,2027-03-29,224,599,62,537,0,75.73,4695.26,0,BioCare Logistics,Shelf A-1,Safe,Low Stock
+MED-0362,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN11620,2026-07-16,2028-05-06,628,841,583,258,0,20.98,12231.34,0,Apex Global Health,Shelf C-1,Safe,Overstocked
+MED-0363,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN96732,2026-09-28,2028-03-23,584,779,399,380,0,14.76,5889.24,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0364,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN76265,2027-01-13,2028-04-06,598,176,130,46,0,28.95,3763.5,0,Apex Global Health,Shelf B-1,Safe,Overstocked
+MED-0365,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN62858,2025-06-14,2027-02-04,171,554,415,139,0,49.78,20658.7,0,PharmaLink Distribution,Shelf B-2,Safe,Overstocked
+MED-0366,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,90s,BN75191,2025-10-13,2026-12-04,109,513,216,297,0,5.46,1179.36,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0367,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,100s,BN76628,2026-09-05,2028-02-26,558,472,32,440,0,69.87,2235.84,0,BioCare Logistics,Shelf B-1,Safe,Low Stock
+MED-0368,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN69314,2025-07-19,2026-11-09,84,102,41,61,0,31.8,1303.8,1303.8,Apex Global Health,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0369,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN16000,2027-01-23,2028-04-03,595,941,739,202,0,63.76,47118.64,0,BioCare Logistics,Shelf A-1,Safe,Overstocked
+MED-0370,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN25826,2026-09-04,2027-12-23,493,568,427,141,0,66.97,28596.19,0,Apex Global Health,Shelf A-1,Safe,Overstocked
+MED-0371,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN69048,2026-10-27,2028-07-11,694,237,132,105,0,2.86,377.52,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0372,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN76628,2025-05-27,2027-05-16,272,692,182,510,0,62.77,11424.14,0,Medix Wholesale,Shelf A-1,Safe,Optimal
+MED-0373,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN76074,2026-03-13,2028-01-18,519,809,259,550,0,25.07,6493.13,0,Apex Global Health,Shelf B-1,Safe,Optimal
+MED-0374,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,90s,BN64099,2026-11-22,2028-04-23,615,963,723,240,0,47.69,34479.87,0,Apex Global Health,Narcotics Safe,Safe,Overstocked
+MED-0375,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN37487,2025-09-23,2027-09-09,388,453,349,104,0,13.45,4694.05,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0376,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN56168,2026-09-16,2028-07-04,687,783,432,351,0,58.13,25112.16,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0377,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN13312,2025-01-31,2027-01-09,145,157,30,127,0,24.53,735.9,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0378,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN18130,2026-06-02,2027-09-14,393,871,559,312,0,5.17,2890.03,0,BioCare Logistics,Shelf A-1,Safe,Overstocked
+MED-0379,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN41142,2025-09-17,2027-09-06,385,780,53,727,0,78.93,4183.29,0,BioCare Logistics,Shelf B-2,Safe,Low Stock
+MED-0380,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN11699,2025-07-29,2027-06-11,298,989,458,531,0,70.97,32504.26,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0381,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN48558,2025-10-28,2027-01-31,167,277,193,84,0,44.89,8663.77,0,BioCare Logistics,Shelf A-1,Safe,Overstocked
+MED-0382,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN27048,2025-09-16,2026-09-18,32,438,139,299,0,61.05,8485.95,8485.95,Medix Wholesale,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0383,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN91968,2026-01-12,2027-09-20,399,908,591,317,0,47.89,28302.99,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0384,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN78236,2025-04-07,2026-06-27,-51,525,149,376,149,46.81,6974.69,6974.69,PharmaLink Distribution,Shelf B-1,Expired,Optimal
+MED-0385,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN53393,2025-08-15,2027-06-27,314,643,248,395,0,84.72,21010.56,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0386,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,90s,BN15226,2026-03-29,2027-10-10,419,915,121,794,0,34.33,4153.93,0,OmniPharma Ltd.,Narcotics Safe,Safe,Low Stock
+MED-0387,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN77411,2026-06-11,2028-02-15,547,144,42,102,0,76.61,3217.62,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0388,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN31940,2026-08-20,2028-05-19,641,107,85,22,0,7.9,671.5,0,Medix Wholesale,Narcotics Safe,Safe,Overstocked
+MED-0389,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN80484,2026-03-10,2028-02-04,536,936,78,858,0,64.12,5001.36,0,Medix Wholesale,Shelf A-1,Safe,Low Stock
+MED-0390,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,90s,BN21471,2024-11-27,2026-04-04,-135,671,46,625,46,49.93,2296.78,2296.78,Medix Wholesale,Shelf B-1,Expired,Low Stock
+MED-0391,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN92603,2026-09-27,2027-10-05,414,498,349,149,0,12.26,4278.74,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0392,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN19514,2027-02-19,2028-04-13,605,396,159,237,0,52.54,8353.86,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0393,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN72126,2025-07-07,2026-09-14,28,864,220,644,0,68.23,15010.6,15010.6,OmniPharma Ltd.,Shelf B-1,Critical (<30 Days),Optimal
+MED-0394,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN98773,2026-11-28,2027-12-03,473,666,149,517,0,12.67,1887.83,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0395,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN49936,2025-06-14,2026-09-30,44,522,282,240,0,14.25,4018.5,4018.5,Medix Wholesale,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0396,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN25023,2025-10-01,2026-10-28,72,971,582,389,0,40.55,23600.1,23600.1,OmniPharma Ltd.,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0397,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN22871,2025-02-23,2026-10-30,74,438,111,327,0,13.08,1451.88,1451.88,Medix Wholesale,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0398,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN51652,2025-12-07,2027-10-18,427,775,318,457,0,59.71,18987.78,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0399,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN66139,2025-05-23,2026-09-26,40,904,246,658,0,61.26,15069.96,15069.96,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0400,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,100g,BN72908,2026-06-15,2027-11-18,458,598,287,311,0,11.48,3294.76,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0401,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN44502,2025-12-26,2027-02-02,169,119,69,50,0,54.61,3768.09,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0402,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN14804,2026-08-23,2028-05-25,647,583,339,244,0,66.45,22526.55,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0403,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN70909,2025-07-28,2027-02-16,183,472,262,210,0,3.37,882.94,0,Medix Wholesale,Cold Storage 1,Safe,Optimal
+MED-0404,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN30869,2024-11-25,2026-10-28,72,993,169,824,0,63.21,10682.49,10682.49,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0405,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN40375,2025-01-24,2026-05-23,-86,143,52,91,52,19.56,1017.12,1017.12,Apex Global Health,Shelf B-2,Expired,Optimal
+MED-0406,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN15230,2026-08-22,2027-10-13,422,820,538,282,0,54.77,29466.26,0,Apex Global Health,Narcotics Safe,Safe,Overstocked
+MED-0407,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,20s,BN95678,2026-08-10,2028-07-09,692,955,84,871,0,45.12,3790.08,0,BioCare Logistics,Shelf A-2,Safe,Low Stock
+MED-0408,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN55224,2026-05-19,2028-03-23,584,106,69,37,0,75.27,5193.63,0,BioCare Logistics,Shelf A-2,Safe,Overstocked
+MED-0409,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN37723,2025-03-05,2026-09-06,20,716,387,329,0,69.9,27051.3,27051.3,Medix Wholesale,Shelf B-1,Critical (<30 Days),Optimal
+MED-0410,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN72786,2024-10-10,2026-09-06,20,953,440,513,0,4.35,1914,1914,PharmaLink Distribution,Shelf A-2,Critical (<30 Days),Optimal
+MED-0411,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN92515,2027-04-11,2028-06-24,677,157,26,131,0,23.81,619.06,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0412,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN96736,2025-10-24,2027-02-11,178,559,315,244,0,84.4,26586,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0413,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN86368,2025-07-06,2027-05-21,277,775,528,247,0,24.32,12840.96,0,Apex Global Health,Cold Storage 1,Safe,Overstocked
+MED-0414,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN27329,2024-12-18,2026-09-11,25,980,536,444,0,58.96,31602.56,31602.56,Medix Wholesale,Cold Storage 1,Critical (<30 Days),Optimal
+MED-0415,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN22214,2025-05-25,2027-03-29,224,652,6,646,0,76.5,459,0,BioCare Logistics,Shelf C-1,Safe,Low Stock
+MED-0416,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN79444,2026-09-10,2028-03-23,584,458,306,152,0,68.88,21077.28,0,OmniPharma Ltd.,Shelf A-1,Safe,Overstocked
+MED-0417,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN72539,2025-09-17,2027-02-09,176,712,561,151,0,36.21,20313.81,0,Medix Wholesale,Shelf A-1,Safe,Overstocked
+MED-0418,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN78126,2025-04-21,2026-08-04,-13,804,171,633,171,36.23,6195.33,6195.33,PharmaLink Distribution,Cold Storage 1,Expired,Optimal
+MED-0419,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN44249,2026-04-09,2028-01-23,524,474,318,156,0,25.23,8023.14,0,BioCare Logistics,Shelf A-2,Safe,Overstocked
+MED-0420,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN33425,2026-10-03,2028-06-06,659,359,162,197,0,50.16,8125.92,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0421,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN68536,2026-03-10,2027-04-30,256,319,135,184,0,35.55,4799.25,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0422,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN61000,2025-10-06,2026-11-21,96,943,153,790,0,41.41,6335.73,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0423,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,100s,BN39067,2027-07-13,2028-07-31,714,841,398,443,0,79.28,31553.44,0,BioCare Logistics,Shelf C-1,Safe,Optimal
+MED-0424,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN32973,2027-02-03,2028-02-08,540,306,222,84,0,56.69,12585.18,0,OmniPharma Ltd.,Shelf B-1,Safe,Overstocked
+MED-0425,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN90634,2025-02-18,2026-08-21,4,344,187,157,0,2.52,471.24,471.24,Medix Wholesale,Shelf A-1,Critical (<30 Days),Optimal
+MED-0426,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN97773,2027-03-29,2028-07-08,691,630,12,618,0,63.3,759.6,0,PharmaLink Distribution,Shelf A-1,Safe,Low Stock
+MED-0427,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN55544,2026-05-03,2027-08-26,374,720,204,516,0,40.02,8164.08,0,BioCare Logistics,Shelf C-1,Safe,Optimal
+MED-0428,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,30s,BN63363,2027-05-05,2028-06-10,663,615,155,460,0,30.55,4735.25,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0429,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN59424,2026-01-31,2027-07-23,340,894,474,420,0,58.73,27838.02,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0430,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN18854,2025-07-18,2027-06-29,316,818,240,578,0,68.51,16442.4,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0431,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN42539,2026-01-19,2027-12-29,499,866,355,511,0,8.77,3113.35,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0432,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN85197,2025-09-16,2027-05-29,285,854,209,645,0,21.88,4572.92,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0433,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN42728,2026-08-28,2027-11-15,455,897,114,783,0,12.39,1412.46,0,PharmaLink Distribution,Narcotics Safe,Safe,Low Stock
+MED-0434,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN80972,2026-09-15,2028-03-23,584,735,327,408,0,43.12,14100.24,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0435,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN62150,2025-08-25,2026-10-29,73,155,87,68,0,68.44,5954.28,5954.28,BioCare Logistics,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0436,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN99959,2026-12-28,2028-02-27,559,815,535,280,0,40.46,21646.1,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0437,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN86153,2024-11-23,2026-10-02,46,982,285,697,0,17.94,5112.9,5112.9,Apex Global Health,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0438,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN57962,2025-06-25,2026-10-10,54,529,210,319,0,32.62,6850.2,6850.2,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0439,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,90s,BN85483,2025-10-11,2027-02-26,193,923,246,677,0,48.32,11886.72,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0440,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN11276,2025-08-12,2026-10-19,63,969,549,420,0,46.55,25555.95,25555.95,Apex Global Health,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0441,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN62219,2025-03-01,2026-03-31,-139,320,114,206,114,23.48,2676.72,2676.72,PharmaLink Distribution,Shelf B-2,Expired,Optimal
+MED-0442,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN57226,2026-02-11,2027-08-06,354,120,57,63,0,12.5,712.5,0,OmniPharma Ltd.,Shelf A-2,Safe,Optimal
+MED-0443,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN56544,2026-08-16,2028-04-21,613,893,462,431,0,75.89,35061.18,0,BioCare Logistics,Shelf C-1,Safe,Optimal
+MED-0444,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN31964,2026-03-26,2027-10-27,436,746,590,156,0,35.89,21175.1,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0445,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN51088,2025-09-12,2027-09-10,389,373,207,166,0,24.88,5150.16,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0446,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN31930,2025-06-16,2026-08-19,2,845,140,705,0,57.12,7996.8,7996.8,PharmaLink Distribution,Shelf A-2,Critical (<30 Days),Optimal
+MED-0447,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN22524,2024-09-12,2026-06-19,-59,155,11,144,11,66.1,727.1,727.1,OmniPharma Ltd.,Shelf A-1,Expired,Low Stock
+MED-0448,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN21050,2026-07-15,2027-12-20,490,334,131,203,0,63.35,8298.85,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0449,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN13744,2024-12-05,2026-05-20,-89,984,253,731,253,41.04,10383.12,10383.12,OmniPharma Ltd.,Shelf B-1,Expired,Optimal
+MED-0450,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN80685,2025-03-13,2026-11-01,76,746,403,343,0,54.96,22148.88,22148.88,OmniPharma Ltd.,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0451,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN73131,2025-07-04,2027-02-15,182,415,192,223,0,36.51,7009.92,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0452,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,30s,BN55073,2027-05-13,2028-05-16,638,804,508,296,0,80.62,40954.96,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0453,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,90s,BN88250,2024-11-10,2026-08-17,0,482,116,366,0,36.47,4230.52,4230.52,OmniPharma Ltd.,Shelf B-2,Critical (<30 Days),Optimal
+MED-0454,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN94671,2026-08-18,2027-12-08,478,369,45,324,0,37.33,1679.85,0,Medix Wholesale,Shelf C-1,Safe,Low Stock
+MED-0455,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN94994,2026-01-19,2027-08-18,366,292,223,69,0,8.15,1817.45,0,Medix Wholesale,Shelf B-1,Safe,Overstocked
+MED-0456,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN45669,2026-12-28,2028-04-02,594,428,14,414,0,15.05,210.7,0,OmniPharma Ltd.,Shelf A-1,Safe,Low Stock
+MED-0457,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,48s,BN45283,2025-10-08,2026-10-12,56,338,43,295,0,14.93,641.99,641.99,BioCare Logistics,Shelf A-2,Near Expiry (31-90 Days),Low Stock
+MED-0458,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN75325,2026-03-14,2028-03-04,565,910,37,873,0,29.75,1100.75,0,Medix Wholesale,Shelf A-1,Safe,Low Stock
+MED-0459,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,14s,BN81197,2026-01-23,2027-05-31,287,936,395,541,0,70.83,27977.85,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0460,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN42396,2025-09-10,2026-12-20,125,571,381,190,0,66.11,25187.91,0,OmniPharma Ltd.,Cold Storage 1,Safe,Overstocked
+MED-0461,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN52344,2024-11-14,2026-08-22,5,633,82,551,0,23.4,1918.8,1918.8,Apex Global Health,Shelf A-2,Critical (<30 Days),Low Stock
+MED-0462,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,50g,BN24801,2025-04-28,2026-10-11,55,115,30,85,0,68.04,2041.2,2041.2,OmniPharma Ltd.,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0463,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN15504,2026-03-30,2028-03-16,577,710,163,547,0,33.14,5401.82,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0464,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN99908,2025-12-17,2027-01-16,152,464,335,129,0,15.2,5092,0,OmniPharma Ltd.,Shelf A-1,Safe,Overstocked
+MED-0465,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN51515,2026-03-27,2027-11-06,446,850,202,648,0,4.26,860.52,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0466,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN73609,2027-01-12,2028-06-10,663,655,506,149,0,18.16,9188.96,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0467,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN46087,2026-10-12,2028-07-21,704,264,22,242,0,46.32,1019.04,0,BioCare Logistics,Shelf B-1,Safe,Low Stock
+MED-0468,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN10094,2026-10-06,2028-04-17,609,851,194,657,0,75.34,14615.96,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0469,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN18302,2026-11-04,2028-05-20,642,294,139,155,0,58.87,8182.93,0,OmniPharma Ltd.,Shelf A-2,Safe,Optimal
+MED-0470,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN63713,2026-01-19,2027-03-09,204,635,342,293,0,8,2736,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0471,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN73618,2024-11-02,2026-08-21,4,757,448,309,0,34.56,15482.88,15482.88,BioCare Logistics,Shelf C-1,Critical (<30 Days),Optimal
+MED-0472,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN58018,2025-08-20,2026-08-26,9,313,187,126,0,43.04,8048.48,8048.48,PharmaLink Distribution,Shelf B-2,Critical (<30 Days),Optimal
+MED-0473,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN83140,2026-07-11,2028-01-15,516,913,730,183,0,7.31,5336.3,0,OmniPharma Ltd.,Shelf B-1,Safe,Overstocked
+MED-0474,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN49833,2024-07-23,2026-04-14,-125,199,22,177,22,62.33,1371.26,1371.26,OmniPharma Ltd.,Shelf B-2,Expired,Low Stock
+MED-0475,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN84714,2025-08-06,2027-05-18,274,867,576,291,0,36.75,21168,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0476,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN97194,2025-12-07,2027-03-02,197,911,189,722,0,47.87,9047.43,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0477,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN56179,2026-12-18,2028-06-01,654,965,385,580,0,36.52,14060.2,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0478,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN59160,2026-01-31,2027-08-03,351,563,234,329,0,81.69,19115.46,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0479,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN77844,2025-09-21,2026-09-24,38,407,76,331,0,20.22,1536.72,1536.72,Apex Global Health,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0480,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN22358,2025-03-02,2026-05-20,-89,241,43,198,43,32.78,1409.54,1409.54,OmniPharma Ltd.,Cold Storage 1,Expired,Optimal
+MED-0481,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN22046,2027-03-02,2028-06-20,673,851,84,767,0,62.2,5224.8,0,BioCare Logistics,Narcotics Safe,Safe,Low Stock
+MED-0482,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN14898,2026-12-16,2028-06-28,681,180,19,161,0,78.55,1492.45,0,Apex Global Health,Cold Storage 2,Safe,Low Stock
+MED-0483,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN39716,2027-07-20,2028-07-24,707,749,396,353,0,6.97,2760.12,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0484,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN75850,2026-03-27,2027-04-21,247,789,407,382,0,82.61,33622.27,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0485,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN66614,2026-10-10,2027-12-24,494,235,91,144,0,9.31,847.21,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0486,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN21151,2026-02-11,2028-02-03,535,233,39,194,0,42.18,1645.02,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0487,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN83553,2026-12-31,2028-05-05,627,348,41,307,0,24.47,1003.27,0,BioCare Logistics,Shelf B-1,Safe,Low Stock
+MED-0488,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN98047,2026-05-31,2027-11-25,465,295,87,208,0,30.92,2690.04,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0489,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN91681,2025-04-25,2026-08-22,5,304,115,189,0,15.37,1767.55,1767.55,PharmaLink Distribution,Shelf A-1,Critical (<30 Days),Optimal
+MED-0490,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN47707,2025-06-19,2026-08-14,-3,412,125,287,125,41.37,5171.25,5171.25,Apex Global Health,Shelf A-2,Expired,Optimal
+MED-0491,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN81620,2025-10-31,2027-08-07,355,594,323,271,0,62.72,20258.56,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0492,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN86415,2027-04-17,2028-05-08,630,361,92,269,0,7.46,686.32,0,Medix Wholesale,Cold Storage 2,Safe,Optimal
+MED-0493,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN18729,2025-09-15,2027-08-20,368,972,680,292,0,32.22,21909.6,0,PharmaLink Distribution,Shelf A-1,Safe,Overstocked
+MED-0494,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN59899,2025-09-17,2027-02-25,192,596,448,148,0,51.76,23188.48,0,PharmaLink Distribution,Shelf A-2,Safe,Overstocked
+MED-0495,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,14s,BN15210,2025-05-20,2026-10-23,67,441,145,296,0,34.96,5069.2,5069.2,Medix Wholesale,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0496,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN91950,2026-11-23,2028-04-12,604,931,68,863,0,54.13,3680.84,0,BioCare Logistics,Shelf A-1,Safe,Low Stock
+MED-0497,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN29884,2026-01-21,2027-12-23,493,240,27,213,0,62.72,1693.44,0,OmniPharma Ltd.,Narcotics Safe,Safe,Low Stock
+MED-0498,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN41504,2026-08-20,2028-01-26,527,719,342,377,0,39.56,13529.52,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0499,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN28102,2027-02-26,2028-05-05,627,540,399,141,0,14.48,5777.52,0,OmniPharma Ltd.,Shelf A-2,Safe,Overstocked
+MED-0500,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN34134,2026-03-30,2027-04-14,240,883,331,552,0,75.11,24861.41,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0501,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN29917,2025-12-28,2027-03-05,200,289,11,278,0,65.4,719.4,0,OmniPharma Ltd.,Shelf C-1,Safe,Low Stock
+MED-0502,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN40266,2026-10-09,2027-11-18,458,804,493,311,0,13.56,6685.08,0,OmniPharma Ltd.,Shelf B-2,Safe,Overstocked
+MED-0503,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN60785,2026-01-12,2027-04-05,231,297,62,235,0,5.16,319.92,0,PharmaLink Distribution,Cold Storage 2,Safe,Optimal
+MED-0504,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN36812,2024-07-30,2026-06-10,-68,601,186,415,186,29.3,5449.8,5449.8,BioCare Logistics,Shelf A-2,Expired,Optimal
+MED-0505,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN89682,2026-07-03,2027-12-10,480,503,318,185,0,79.98,25433.64,0,OmniPharma Ltd.,Shelf C-1,Safe,Overstocked
+MED-0506,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN69193,2025-08-26,2026-12-29,134,631,280,351,0,35.14,9839.2,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0507,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN34884,2026-07-26,2027-12-28,498,892,297,595,0,40.56,12046.32,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0508,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN70762,2027-01-06,2028-02-21,553,839,517,322,0,11.84,6121.28,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0509,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN64206,2025-09-11,2026-12-11,116,564,307,257,0,76.47,23476.29,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0510,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,100s,BN95010,2026-02-28,2027-05-02,258,193,34,159,0,60.76,2065.84,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0511,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN59634,2025-10-04,2026-12-30,135,443,294,149,0,74.38,21867.72,0,Medix Wholesale,Shelf A-2,Safe,Overstocked
+MED-0512,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN64995,2026-09-21,2028-02-15,547,741,190,551,0,12.2,2318,0,Medix Wholesale,Shelf A-2,Safe,Optimal
+MED-0513,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,90s,BN11600,2026-07-06,2028-04-09,601,926,10,916,0,52.66,526.6,0,BioCare Logistics,Shelf A-2,Safe,Low Stock
+MED-0514,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN63759,2026-09-20,2028-07-23,706,106,36,70,0,75.28,2710.08,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0515,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN34227,2025-05-14,2026-11-08,83,137,29,108,0,72.94,2115.26,2115.26,OmniPharma Ltd.,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0516,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN16426,2025-06-18,2026-09-08,22,788,165,623,0,52.91,8730.15,8730.15,OmniPharma Ltd.,Shelf C-1,Critical (<30 Days),Optimal
+MED-0517,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN85886,2025-11-05,2026-12-22,127,886,311,575,0,29.13,9059.43,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0518,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN48382,2025-03-30,2027-03-20,215,980,286,694,0,29.66,8482.76,0,BioCare Logistics,Shelf C-1,Safe,Optimal
+MED-0519,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN24326,2027-03-28,2028-05-10,632,595,375,220,0,59.31,22241.25,0,Apex Global Health,Shelf B-2,Safe,Overstocked
+MED-0520,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN78864,2027-02-16,2028-08-15,729,232,162,70,0,48.92,7925.04,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0521,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,100mg,28s,BN33580,2025-07-15,2027-07-12,329,397,104,293,0,2.63,273.52,0,PharmaLink Distribution,Shelf B-2,Safe,Optimal
+MED-0522,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN90649,2026-12-21,2028-01-13,514,441,184,257,0,48.73,8966.32,0,Medix Wholesale,Shelf A-1,Safe,Optimal
+MED-0523,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN43347,2026-04-27,2027-09-27,406,618,286,332,0,29.22,8356.92,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0524,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN61910,2027-07-25,2028-08-07,721,952,184,768,0,18.51,3405.84,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0525,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN94626,2024-10-19,2026-09-05,19,571,294,277,0,76.41,22464.54,22464.54,BioCare Logistics,Shelf B-2,Critical (<30 Days),Optimal
+MED-0526,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN82768,2025-08-26,2027-06-17,304,801,344,457,0,68.46,23550.24,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0527,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN54453,2027-02-22,2028-05-16,638,684,403,281,0,17.96,7237.88,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0528,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN45585,2026-12-08,2028-04-07,599,480,236,244,0,70.93,16739.48,0,Apex Global Health,Cold Storage 1,Safe,Optimal
+MED-0529,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN24710,2025-09-12,2026-12-24,129,194,118,76,0,44.24,5220.32,0,BioCare Logistics,Shelf C-1,Safe,Overstocked
+MED-0530,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN73369,2026-11-29,2028-05-05,627,894,340,554,0,14.32,4868.8,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0531,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN14791,2027-03-06,2028-05-03,625,104,44,60,0,79.42,3494.48,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0532,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN23513,2026-09-20,2027-10-01,410,691,324,367,0,55.21,17888.04,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0533,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN46261,2026-03-04,2028-02-10,542,220,74,146,0,14.82,1096.68,0,Apex Global Health,Shelf A-1,Safe,Optimal
+MED-0534,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,30s,BN37076,2026-12-20,2028-05-31,653,377,77,300,0,80.32,6184.64,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0535,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN50812,2026-01-25,2027-10-28,437,554,30,524,0,13.23,396.9,0,BioCare Logistics,Cold Storage 1,Safe,Low Stock
+MED-0536,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN21287,2025-05-23,2027-05-18,274,710,461,249,0,53.35,24594.35,0,Apex Global Health,Shelf B-1,Safe,Overstocked
+MED-0537,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN84421,2025-03-20,2026-11-14,89,199,78,121,0,28.11,2192.58,2192.58,BioCare Logistics,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0538,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN90863,2026-05-07,2027-11-23,463,287,184,103,0,78.17,14383.28,0,Apex Global Health,Cold Storage 2,Safe,Overstocked
+MED-0539,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,90s,BN18567,2026-03-10,2027-11-10,450,572,438,134,0,16.59,7266.42,0,Apex Global Health,Shelf C-1,Safe,Overstocked
+MED-0540,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN63174,2025-09-20,2027-03-05,200,669,77,592,0,67.88,5226.76,0,OmniPharma Ltd.,Shelf B-2,Safe,Low Stock
+MED-0541,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN41270,2027-03-11,2028-05-30,652,593,201,392,0,7.95,1597.95,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0542,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN84345,2026-06-06,2028-05-26,648,341,93,248,0,57.17,5316.81,0,PharmaLink Distribution,Narcotics Safe,Safe,Optimal
+MED-0543,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN87616,2026-01-04,2027-10-15,424,199,118,81,0,17.03,2009.54,0,BioCare Logistics,Cold Storage 1,Safe,Optimal
+MED-0544,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN52914,2025-12-02,2027-01-17,153,322,214,108,0,13.96,2987.44,0,OmniPharma Ltd.,Narcotics Safe,Safe,Overstocked
+MED-0545,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,30s,BN69372,2026-02-08,2027-12-20,490,691,462,229,0,18.64,8611.68,0,Apex Global Health,Shelf B-1,Safe,Overstocked
+MED-0546,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN55123,2027-07-01,2028-07-04,687,726,527,199,0,35.85,18892.95,0,Medix Wholesale,Shelf B-1,Safe,Overstocked
+MED-0547,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN10110,2026-09-23,2027-11-18,458,981,293,688,0,73.92,21658.56,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0548,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN60173,2026-05-01,2028-02-04,536,316,174,142,0,16.81,2924.94,0,Medix Wholesale,Cold Storage 1,Safe,Optimal
+MED-0549,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN64687,2025-09-07,2026-11-10,85,237,21,216,0,8.42,176.82,176.82,PharmaLink Distribution,Shelf A-2,Near Expiry (31-90 Days),Low Stock
+MED-0550,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN21097,2025-02-18,2026-10-09,53,907,455,452,0,53.92,24533.6,24533.6,BioCare Logistics,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0551,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN60425,2025-10-20,2027-05-25,281,719,12,707,0,50.18,602.16,0,Medix Wholesale,Narcotics Safe,Safe,Low Stock
+MED-0552,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN81587,2025-12-01,2026-12-20,125,681,499,182,0,60.65,30264.35,0,PharmaLink Distribution,Shelf C-1,Safe,Overstocked
+MED-0553,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN78997,2026-01-03,2027-08-29,377,629,45,584,0,45.68,2055.6,0,OmniPharma Ltd.,Shelf A-1,Safe,Low Stock
+MED-0554,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN99662,2027-01-24,2028-07-01,684,727,59,668,0,77.05,4545.95,0,OmniPharma Ltd.,Cold Storage 2,Safe,Low Stock
+MED-0555,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,100s,BN65183,2026-04-18,2027-09-13,392,271,14,257,0,59.84,837.76,0,OmniPharma Ltd.,Narcotics Safe,Safe,Low Stock
+MED-0556,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN92483,2025-07-19,2027-05-08,264,152,89,63,0,84.21,7494.69,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0557,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN26622,2026-04-20,2027-08-27,375,235,162,73,0,25.68,4160.16,0,Apex Global Health,Shelf A-1,Safe,Overstocked
+MED-0558,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN96396,2026-01-01,2027-05-14,270,901,246,655,0,42.51,10457.46,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0559,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN88059,2025-08-12,2027-04-22,248,870,427,443,0,66.06,28207.62,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0560,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,50mcg,90s,BN85727,2026-10-08,2027-11-04,444,757,275,482,0,64.83,17828.25,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0561,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN72420,2027-01-16,2028-05-14,636,488,354,134,0,60.71,21491.34,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0562,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN47852,2026-08-07,2028-02-18,550,794,328,466,0,81.85,26846.8,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0563,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN90017,2026-03-04,2027-08-22,370,376,141,235,0,68.69,9685.29,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0564,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN98511,2027-04-03,2028-07-10,693,632,177,455,0,58.41,10338.57,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0565,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN18906,2024-06-20,2026-03-15,-155,206,67,139,67,31.5,2110.5,2110.5,Apex Global Health,Shelf B-1,Expired,Optimal
+MED-0566,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN91185,2024-08-18,2026-07-20,-28,955,121,834,121,80.92,9791.32,9791.32,PharmaLink Distribution,Narcotics Safe,Expired,Low Stock
+MED-0567,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN59277,2027-03-16,2028-06-17,670,213,52,161,0,23.4,1216.8,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0568,Glucophage,Metformin,Merck,Antidiabetic,Tablet,1000mg,100s,BN46226,2026-06-04,2027-10-13,422,265,204,61,0,8.6,1754.4,0,PharmaLink Distribution,Shelf B-2,Safe,Overstocked
+MED-0569,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN43847,2026-05-15,2027-08-14,362,551,40,511,0,43.07,1722.8,0,Medix Wholesale,Shelf C-1,Safe,Low Stock
+MED-0570,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN24212,2025-06-22,2026-10-11,55,728,349,379,0,11.27,3933.23,3933.23,BioCare Logistics,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0571,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN19557,2024-09-07,2026-04-23,-116,119,41,78,41,14.78,605.98,605.98,PharmaLink Distribution,Shelf A-1,Expired,Optimal
+MED-0572,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN29871,2026-03-02,2027-12-21,491,103,70,33,0,60.88,4261.6,0,BioCare Logistics,Shelf B-2,Safe,Overstocked
+MED-0573,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN80795,2024-10-18,2026-10-05,49,937,513,424,0,12.5,6412.5,6412.5,OmniPharma Ltd.,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0574,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN17234,2025-08-13,2027-02-16,183,647,353,294,0,9.14,3226.42,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0575,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN82676,2024-06-23,2026-05-27,-82,295,48,247,48,59.91,2875.68,2875.68,PharmaLink Distribution,Narcotics Safe,Expired,Optimal
+MED-0576,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN21123,2026-11-02,2028-02-07,539,243,14,229,0,18.43,258.02,0,OmniPharma Ltd.,Cold Storage 1,Safe,Low Stock
+MED-0577,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN80851,2026-07-12,2028-04-10,602,954,465,489,0,82.24,38241.6,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0578,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN15611,2025-07-21,2027-06-20,307,783,540,243,0,40.32,21772.8,0,OmniPharma Ltd.,Shelf A-2,Safe,Overstocked
+MED-0579,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN14833,2026-05-01,2028-03-30,591,119,65,54,0,77.34,5027.1,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0580,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN32577,2026-08-08,2027-09-26,405,567,317,250,0,16.58,5255.86,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0581,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN18271,2026-08-07,2028-01-26,527,930,699,231,0,35.67,24933.33,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0582,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN37948,2027-04-19,2028-07-15,698,443,37,406,0,12.46,461.02,0,Medix Wholesale,Shelf B-2,Safe,Low Stock
+MED-0583,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN67496,2025-10-10,2026-10-30,74,236,32,204,0,67.76,2168.32,2168.32,OmniPharma Ltd.,Shelf B-2,Near Expiry (31-90 Days),Low Stock
+MED-0584,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,48s,BN20580,2025-02-18,2026-04-04,-135,823,313,510,313,75.67,23684.71,23684.71,BioCare Logistics,Narcotics Safe,Expired,Optimal
+MED-0585,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN28754,2026-09-17,2028-05-04,626,521,127,394,0,79.89,10146.03,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0586,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN90222,2026-03-26,2027-09-20,399,528,7,521,0,48.51,339.57,0,Medix Wholesale,Shelf A-1,Safe,Low Stock
+MED-0587,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN80742,2026-04-20,2028-03-05,566,775,218,557,0,25.31,5517.58,0,Medix Wholesale,Shelf A-1,Safe,Optimal
+MED-0588,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN33111,2025-07-26,2026-08-22,5,760,206,554,0,26.02,5360.12,5360.12,BioCare Logistics,Shelf B-1,Critical (<30 Days),Optimal
+MED-0589,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN23686,2027-02-19,2028-05-19,641,261,206,55,0,4.9,1009.4,0,OmniPharma Ltd.,Shelf A-1,Safe,Overstocked
+MED-0590,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,100s,BN87687,2026-10-10,2028-01-19,520,865,338,527,0,21.48,7260.24,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0591,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN64079,2026-08-15,2027-12-05,475,175,125,50,0,50.77,6346.25,0,PharmaLink Distribution,Cold Storage 1,Safe,Overstocked
+MED-0592,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,14s,BN60768,2026-11-20,2028-02-27,559,747,372,375,0,82.98,30868.56,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0593,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN46779,2025-02-23,2026-10-15,59,528,107,421,0,65.23,6979.61,6979.61,Medix Wholesale,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0594,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN85775,2026-05-26,2027-07-09,326,521,272,249,0,42.86,11657.92,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0595,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN11901,2026-03-22,2027-07-26,343,435,227,208,0,50.31,11420.37,0,OmniPharma Ltd.,Shelf A-2,Safe,Optimal
+MED-0596,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN15796,2024-10-03,2026-06-18,-60,134,37,97,37,46.32,1713.84,1713.84,BioCare Logistics,Narcotics Safe,Expired,Optimal
+MED-0597,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN41524,2024-03-04,2026-02-21,-177,849,218,631,218,80.87,17629.66,17629.66,Medix Wholesale,Shelf B-1,Expired,Optimal
+MED-0598,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN12087,2026-07-04,2027-09-24,403,820,475,345,0,73.28,34808,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0599,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,90s,BN63131,2024-11-17,2026-10-03,47,575,344,231,0,2.61,897.84,897.84,PharmaLink Distribution,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0600,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN48874,2025-08-27,2027-08-19,367,727,560,167,0,49.96,27977.6,0,Medix Wholesale,Cold Storage 1,Safe,Overstocked
+MED-0601,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN77467,2026-10-28,2027-11-23,463,213,103,110,0,32.66,3363.98,0,OmniPharma Ltd.,Shelf A-1,Safe,Optimal
+MED-0602,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,50g,BN94957,2025-04-11,2027-01-23,159,826,214,612,0,13.92,2978.88,0,Apex Global Health,Shelf A-2,Safe,Optimal
+MED-0603,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN86037,2026-02-23,2027-06-18,305,428,185,243,0,76.58,14167.3,0,OmniPharma Ltd.,Narcotics Safe,Safe,Optimal
+MED-0604,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN18305,2026-06-19,2028-02-22,554,613,274,339,0,70.94,19437.56,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0605,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN91389,2025-10-18,2027-01-22,158,568,49,519,0,9.11,446.39,0,Medix Wholesale,Shelf B-1,Safe,Low Stock
+MED-0606,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,60s,BN46168,2024-12-24,2026-09-04,18,254,72,182,0,45.46,3273.12,3273.12,PharmaLink Distribution,Shelf B-1,Critical (<30 Days),Optimal
+MED-0607,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN72115,2026-03-20,2028-02-13,545,121,42,79,0,18.1,760.2,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0608,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN85851,2026-02-10,2027-10-16,425,707,547,160,0,71.96,39362.12,0,BioCare Logistics,Shelf B-2,Safe,Overstocked
+MED-0609,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN32509,2025-11-01,2027-07-06,323,480,152,328,0,66,10032,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0610,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN31805,2025-04-30,2027-04-29,255,648,297,351,0,17.54,5209.38,0,Medix Wholesale,Narcotics Safe,Safe,Optimal
+MED-0611,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN41182,2024-12-06,2026-09-26,40,229,76,153,0,23.98,1822.48,1822.48,Medix Wholesale,Cold Storage 1,Near Expiry (31-90 Days),Optimal
+MED-0612,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,14s,BN55068,2025-01-10,2026-10-13,57,266,156,110,0,27.38,4271.28,4271.28,PharmaLink Distribution,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0613,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN51971,2025-02-08,2026-10-25,69,439,185,254,0,60.7,11229.5,11229.5,BioCare Logistics,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0614,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN54392,2027-03-01,2028-03-20,581,242,178,64,0,47.95,8535.1,0,Apex Global Health,Shelf A-1,Safe,Overstocked
+MED-0615,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN68454,2026-09-18,2027-10-16,425,722,204,518,0,50.63,10328.52,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0616,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN80570,2025-05-27,2027-02-13,180,503,104,399,0,42.96,4467.84,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0617,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN62108,2025-04-04,2026-10-10,54,495,210,285,0,3.51,737.1,737.1,Apex Global Health,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0618,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN38271,2026-07-16,2028-02-13,545,922,458,464,0,26.31,12049.98,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0619,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN28827,2025-01-21,2026-10-16,60,443,36,407,0,79.49,2861.64,2861.64,OmniPharma Ltd.,Shelf B-2,Near Expiry (31-90 Days),Low Stock
+MED-0620,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,100s,BN93729,2026-10-17,2028-01-14,515,669,478,191,0,61.1,29205.8,0,Medix Wholesale,Shelf A-2,Safe,Overstocked
+MED-0621,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN82596,2025-11-26,2027-09-21,400,411,257,154,0,48.64,12500.48,0,BioCare Logistics,Shelf A-2,Safe,Overstocked
+MED-0622,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,30s,BN44429,2027-01-10,2028-03-13,574,769,299,470,0,36.92,11039.08,0,BioCare Logistics,Narcotics Safe,Safe,Optimal
+MED-0623,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN25644,2027-03-01,2028-04-03,595,713,375,338,0,50.44,18915,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0624,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,14s,BN58916,2027-06-20,2028-06-27,680,965,270,695,0,15.93,4301.1,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0625,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN56843,2025-03-20,2026-09-20,34,529,202,327,0,6.52,1317.04,1317.04,Apex Global Health,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0626,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN92317,2024-10-27,2026-08-29,12,870,105,765,0,47.36,4972.8,4972.8,Apex Global Health,Narcotics Safe,Critical (<30 Days),Low Stock
+MED-0627,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN22561,2026-08-30,2027-11-11,451,113,22,91,0,45.25,995.5,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0628,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN23424,2025-06-29,2026-10-20,64,951,212,739,0,68.1,14437.2,14437.2,OmniPharma Ltd.,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0629,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN70357,2026-01-07,2027-03-15,210,117,66,51,0,31.23,2061.18,0,Apex Global Health,Cold Storage 1,Safe,Optimal
+MED-0630,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,90s,BN49935,2024-11-27,2026-03-20,-150,231,28,203,28,59.26,1659.28,1659.28,Apex Global Health,Shelf A-2,Expired,Low Stock
+MED-0631,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN65680,2026-01-30,2027-03-10,205,119,66,53,0,64.98,4288.68,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0632,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN71483,2025-08-27,2026-09-18,32,167,58,109,0,57.58,3339.64,3339.64,PharmaLink Distribution,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0633,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN34219,2025-10-30,2026-12-15,120,249,196,53,0,80.2,15719.2,0,OmniPharma Ltd.,Shelf B-1,Safe,Overstocked
+MED-0634,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,50g,BN76179,2025-05-05,2027-02-25,192,881,19,862,0,46.13,876.47,0,Medix Wholesale,Shelf B-1,Safe,Low Stock
+MED-0635,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,24s,BN38051,2026-09-11,2028-03-16,577,814,608,206,0,17.77,10804.16,0,PharmaLink Distribution,Shelf A-2,Safe,Overstocked
+MED-0636,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN38085,2026-11-11,2028-01-07,508,879,326,553,0,12.7,4140.2,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0637,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN47784,2025-11-15,2026-12-27,132,435,257,178,0,12.05,3096.85,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0638,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN39605,2026-02-02,2027-09-09,388,293,224,69,0,8.24,1845.76,0,BioCare Logistics,Narcotics Safe,Safe,Overstocked
+MED-0639,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,50g,BN98363,2025-08-13,2027-03-03,198,548,272,276,0,56.83,15457.76,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0640,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN87405,2026-04-04,2027-05-07,263,472,106,366,0,30.44,3226.64,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0641,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN75419,2026-09-04,2028-07-03,686,379,209,170,0,31.88,6662.92,0,OmniPharma Ltd.,Shelf B-2,Safe,Optimal
+MED-0642,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN69589,2025-01-11,2026-09-18,32,609,138,471,0,54.34,7498.92,7498.92,Medix Wholesale,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0643,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN75291,2025-11-04,2027-05-18,274,719,339,380,0,15.1,5118.9,0,OmniPharma Ltd.,Shelf C-1,Safe,Optimal
+MED-0644,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN71082,2025-02-28,2026-11-09,84,602,278,324,0,24.09,6697.02,6697.02,Apex Global Health,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0645,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN66414,2025-09-02,2027-03-17,212,560,166,394,0,72.86,12094.76,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0646,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN82963,2025-09-26,2027-09-22,401,268,130,138,0,38.03,4943.9,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0647,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN84560,2026-06-21,2028-06-05,658,652,486,166,0,41.76,20295.36,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0648,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN74840,2026-01-26,2027-12-07,477,792,366,426,0,65.73,24057.18,0,Apex Global Health,Shelf B-1,Safe,Optimal
+MED-0649,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,20s,BN26803,2026-01-14,2027-11-08,448,127,85,42,0,30.65,2605.25,0,PharmaLink Distribution,Shelf B-2,Safe,Overstocked
+MED-0650,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,2%,100g,BN56041,2024-12-16,2026-04-21,-118,340,92,248,92,28.25,2599,2599,PharmaLink Distribution,Narcotics Safe,Expired,Optimal
+MED-0651,Glucophage,Metformin,Merck,Antidiabetic,Tablet,850mg,60s,BN54249,2025-05-11,2026-10-24,68,138,49,89,0,56.77,2781.73,2781.73,BioCare Logistics,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0652,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN12674,2027-06-30,2028-07-10,693,424,198,226,0,49.55,9810.9,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0653,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN98488,2025-02-04,2026-10-19,63,930,367,563,0,16.25,5963.75,5963.75,Apex Global Health,Shelf B-1,Near Expiry (31-90 Days),Optimal
+MED-0654,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN93288,2025-05-03,2027-02-01,168,319,78,241,0,24.38,1901.64,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0655,Singulair,Montelukast,Organon,Respiratory,Tablet,4mg,28s,BN85784,2024-12-27,2026-05-15,-94,168,46,122,46,68.6,3155.6,3155.6,BioCare Logistics,Shelf B-2,Expired,Optimal
+MED-0656,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,14s,BN95398,2026-11-14,2028-04-15,607,543,344,199,0,47.05,16185.2,0,Medix Wholesale,Shelf B-2,Safe,Overstocked
+MED-0657,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN98022,2026-05-10,2027-05-19,275,742,533,209,0,73.67,39266.11,0,OmniPharma Ltd.,Shelf B-2,Safe,Overstocked
+MED-0658,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,28s,BN93614,2026-12-28,2028-08-06,720,679,66,613,0,45.59,3008.94,0,Apex Global Health,Shelf B-2,Safe,Low Stock
+MED-0659,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN99824,2026-07-09,2028-02-04,536,426,37,389,0,54.8,2027.6,0,BioCare Logistics,Shelf B-1,Safe,Low Stock
+MED-0660,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN88804,2025-07-20,2026-09-16,30,253,69,184,0,4.79,330.51,330.51,Apex Global Health,Shelf B-2,Critical (<30 Days),Optimal
+MED-0661,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN94793,2026-03-21,2027-06-10,297,379,74,305,0,4.9,362.6,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0662,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN73680,2025-11-30,2027-01-11,147,421,313,108,0,27.08,8476.04,0,PharmaLink Distribution,Shelf B-2,Safe,Overstocked
+MED-0663,Voltaren,Diclofenac,Haleon,Analgesic / NSAID,Gel,1%,100g,BN28423,2025-02-15,2026-10-29,73,223,86,137,0,57.3,4927.8,4927.8,OmniPharma Ltd.,Shelf C-1,Near Expiry (31-90 Days),Optimal
+MED-0664,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,14s,BN41205,2026-04-17,2027-10-02,411,952,603,349,0,63.32,38181.96,0,Medix Wholesale,Shelf B-2,Safe,Overstocked
+MED-0665,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN32957,2025-02-08,2026-09-21,35,518,150,368,0,73.69,11053.5,11053.5,PharmaLink Distribution,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0666,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,10s,BN51482,2026-04-02,2028-03-16,577,352,147,205,0,75.05,11032.35,0,Medix Wholesale,Shelf B-1,Safe,Optimal
+MED-0667,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN12762,2027-07-12,2028-07-28,711,961,762,199,0,57.13,43533.06,0,PharmaLink Distribution,Narcotics Safe,Safe,Overstocked
+MED-0668,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,12s,BN82447,2025-12-07,2027-11-22,462,224,141,83,0,74.02,10436.82,0,BioCare Logistics,Shelf B-2,Safe,Overstocked
+MED-0669,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,20mg,90s,BN49438,2024-11-18,2026-04-19,-120,315,120,195,120,75.95,9114,9114,BioCare Logistics,Narcotics Safe,Expired,Optimal
+MED-0670,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN45918,2026-08-05,2028-04-02,594,854,427,427,0,78.94,33707.38,0,Apex Global Health,Narcotics Safe,Safe,Optimal
+MED-0671,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN44205,2026-04-10,2027-11-11,451,716,565,151,0,63.37,35804.05,0,BioCare Logistics,Narcotics Safe,Safe,Overstocked
+MED-0672,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,10mg,30s,BN92595,2026-04-03,2027-04-04,230,510,107,403,0,54.33,5813.31,0,Apex Global Health,Shelf C-1,Safe,Optimal
+MED-0673,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,60s,BN42716,2025-05-29,2027-03-29,224,802,425,377,0,67.89,28853.25,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0674,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN32738,2026-05-26,2027-10-17,426,303,26,277,0,36.7,954.2,0,Medix Wholesale,Shelf B-2,Safe,Low Stock
+MED-0675,Singulair,Montelukast,Organon,Respiratory,Tablet,10mg,28s,BN12717,2026-07-14,2028-06-09,662,726,239,487,0,77.31,18477.09,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0676,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,14s,BN62564,2027-03-12,2028-07-22,705,252,27,225,0,81.54,2201.58,0,Medix Wholesale,Shelf C-1,Safe,Low Stock
+MED-0677,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN69468,2027-02-05,2028-04-05,597,329,109,220,0,18.22,1985.98,0,Apex Global Health,Shelf B-1,Safe,Optimal
+MED-0678,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN66532,2027-04-04,2028-07-22,705,943,294,649,0,62.45,18360.3,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0679,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN13771,2026-04-13,2027-08-11,359,732,466,266,0,77.35,36045.1,0,Apex Global Health,Shelf C-1,Safe,Overstocked
+MED-0680,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN11352,2025-10-24,2027-10-13,422,507,356,151,0,20.01,7123.56,0,BioCare Logistics,Narcotics Safe,Safe,Overstocked
+MED-0681,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,20mg,30s,BN19575,2025-02-07,2026-03-05,-165,440,70,370,70,41.35,2894.5,2894.5,Apex Global Health,Shelf C-1,Expired,Optimal
+MED-0682,Imodium,Loperamide,Johnson & Johnson,Gastrointestinal,Capsule,2mg,6s,BN43247,2026-07-10,2027-12-11,481,504,348,156,0,33.1,11518.8,0,OmniPharma Ltd.,Shelf A-1,Safe,Overstocked
+MED-0683,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN32264,2026-03-04,2027-10-29,438,235,27,208,0,28.68,774.36,0,OmniPharma Ltd.,Shelf B-2,Safe,Low Stock
+MED-0684,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN51060,2024-07-10,2026-03-22,-148,992,153,839,153,64.2,9822.6,9822.6,BioCare Logistics,Shelf B-1,Expired,Optimal
+MED-0685,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,1000mg,20s,BN67117,2026-01-27,2027-10-05,414,882,159,723,0,48.34,7686.06,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0686,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN40128,2025-06-05,2026-10-16,60,267,139,128,0,38.51,5352.89,5352.89,BioCare Logistics,Shelf A-1,Near Expiry (31-90 Days),Optimal
+MED-0687,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,100s,BN69999,2026-02-12,2027-04-16,242,457,52,405,0,19.31,1004.12,0,Apex Global Health,Shelf A-2,Safe,Low Stock
+MED-0688,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN86486,2025-02-24,2026-11-20,95,885,589,296,0,17.4,10248.6,0,PharmaLink Distribution,Shelf A-2,Safe,Overstocked
+MED-0689,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN13402,2025-08-31,2027-03-20,215,482,307,175,0,79.15,24299.05,0,PharmaLink Distribution,Shelf B-1,Safe,Overstocked
+MED-0690,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN70323,2026-08-02,2028-03-21,582,743,280,463,0,51.52,14425.6,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0691,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,100s,BN84600,2024-09-28,2026-08-23,6,389,102,287,0,68.35,6971.7,6971.7,PharmaLink Distribution,Shelf C-1,Critical (<30 Days),Optimal
+MED-0692,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN62279,2025-12-27,2027-07-19,336,191,10,181,0,72.82,728.2,0,Medix Wholesale,Shelf B-2,Safe,Low Stock
+MED-0693,Singulair,Montelukast,Organon,Respiratory,Tablet,5mg,28s,BN25807,2026-08-27,2028-02-01,533,801,622,179,0,13.33,8291.26,0,PharmaLink Distribution,Shelf B-1,Safe,Overstocked
+MED-0694,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN68385,2026-11-01,2028-03-17,578,676,438,238,0,9.94,4353.72,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0695,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN92665,2025-04-09,2026-12-27,132,449,242,207,0,58.31,14111.02,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0696,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,5mg,30s,BN71370,2026-10-18,2028-03-19,580,252,37,215,0,58.96,2181.52,0,Apex Global Health,Shelf A-2,Safe,Low Stock
+MED-0697,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN84519,2025-02-14,2026-03-09,-161,625,37,588,37,44.63,1651.31,1651.31,BioCare Logistics,Shelf A-1,Expired,Low Stock
+MED-0698,Synthroid,Levothyroxine,AbbVie,Endocrine,Tablet,100mcg,100s,BN43405,2027-04-07,2028-04-14,606,216,123,93,0,17.31,2129.13,0,Medix Wholesale,Shelf B-2,Safe,Optimal
+MED-0699,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN49013,2026-03-18,2028-02-24,556,560,324,236,0,69.15,22404.6,0,Apex Global Health,Shelf A-2,Safe,Optimal
+MED-0700,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,14s,BN89174,2025-07-25,2027-03-04,199,647,23,624,0,2.98,68.54,0,PharmaLink Distribution,Shelf A-1,Safe,Low Stock
+MED-0701,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,48s,BN63096,2026-11-18,2028-07-24,707,410,321,89,0,69.58,22335.18,0,OmniPharma Ltd.,Shelf B-1,Safe,Overstocked
+MED-0702,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,300ml,BN21486,2025-05-13,2026-08-18,1,214,124,90,0,3.81,472.44,472.44,Medix Wholesale,Cold Storage 1,Critical (<30 Days),Optimal
+MED-0703,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,14s,BN95162,2025-02-03,2026-11-05,80,295,42,253,0,27.33,1147.86,1147.86,BioCare Logistics,Shelf A-2,Near Expiry (31-90 Days),Low Stock
+MED-0704,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN25264,2024-09-11,2026-09-05,19,555,268,287,0,41.4,11095.2,11095.2,BioCare Logistics,Shelf C-1,Critical (<30 Days),Optimal
+MED-0705,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN84636,2026-11-26,2027-12-22,492,441,9,432,0,10.97,98.73,0,BioCare Logistics,Cold Storage 2,Safe,Low Stock
+MED-0706,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN73897,2026-06-27,2028-04-24,616,842,631,211,0,79.66,50265.46,0,BioCare Logistics,Shelf A-2,Safe,Overstocked
+MED-0707,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN65312,2027-05-04,2028-06-04,657,374,218,156,0,75.85,16535.3,0,PharmaLink Distribution,Cold Storage 2,Safe,Optimal
+MED-0708,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN67177,2025-01-24,2026-05-02,-107,580,98,482,98,38.64,3786.72,3786.72,OmniPharma Ltd.,Shelf A-2,Expired,Optimal
+MED-0709,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN27191,2026-05-21,2027-12-20,490,953,694,259,0,56.33,39093.02,0,Apex Global Health,Shelf B-2,Safe,Overstocked
+MED-0710,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,200mg,48s,BN21297,2025-12-30,2027-03-28,223,304,45,259,0,52.47,2361.15,0,PharmaLink Distribution,Shelf B-2,Safe,Low Stock
+MED-0711,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN37450,2025-06-04,2026-12-04,109,367,187,180,0,58.35,10911.45,0,Medix Wholesale,Shelf C-1,Safe,Optimal
+MED-0712,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,250mg,100s,BN66442,2025-07-16,2026-09-15,29,675,134,541,0,42.63,5712.42,5712.42,Apex Global Health,Shelf B-1,Critical (<30 Days),Optimal
+MED-0713,Amoxil,Amoxicillin,GlaxoSmithKline,Antibiotic,Capsule,500mg,20s,BN77552,2025-03-06,2027-03-02,197,151,61,90,0,68.42,4173.62,0,PharmaLink Distribution,Shelf A-1,Safe,Optimal
+MED-0714,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN76493,2025-09-06,2026-11-05,80,991,230,761,0,77.66,17861.8,17861.8,Medix Wholesale,Narcotics Safe,Near Expiry (31-90 Days),Optimal
+MED-0715,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,100mg,30s,BN23014,2025-04-14,2026-10-02,46,938,161,777,0,12.65,2036.65,2036.65,Medix Wholesale,Shelf B-2,Near Expiry (31-90 Days),Optimal
+MED-0716,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN72084,2027-01-20,2028-04-16,608,187,73,114,0,33.23,2425.79,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0717,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN79422,2026-04-28,2027-07-07,324,921,444,477,0,36.61,16254.84,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0718,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN68009,2024-11-27,2026-08-18,1,171,30,141,0,30.41,912.3,912.3,BioCare Logistics,Shelf A-2,Critical (<30 Days),Optimal
+MED-0719,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN14861,2025-06-29,2027-04-19,245,159,85,74,0,83.35,7084.75,0,OmniPharma Ltd.,Shelf B-1,Safe,Optimal
+MED-0720,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,10mg,30s,BN51116,2025-07-04,2026-11-24,99,640,317,323,0,78.44,24865.48,0,BioCare Logistics,Shelf B-2,Safe,Optimal
+MED-0721,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN55252,2026-09-25,2028-01-04,505,408,48,360,0,5.55,266.4,0,Apex Global Health,Shelf B-2,Safe,Low Stock
+MED-0722,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN22166,2026-01-08,2027-10-01,410,448,330,118,0,15.7,5181,0,PharmaLink Distribution,Shelf C-1,Safe,Overstocked
+MED-0723,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,500mg,14s,BN49838,2027-02-20,2028-04-16,608,849,66,783,0,71.93,4747.38,0,Apex Global Health,Narcotics Safe,Safe,Low Stock
+MED-0724,Norvasc,Amlodipine,Viatris,Cardiovascular,Tablet,10mg,30s,BN16256,2025-08-06,2027-03-23,218,405,298,107,0,63.29,18860.42,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0725,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN49216,2026-07-16,2028-06-24,677,243,187,56,0,33.66,6294.42,0,Medix Wholesale,Shelf C-1,Safe,Overstocked
+MED-0726,Klacid,Clarithromycin,Abbott,Antibiotic,Tablet,250mg,14s,BN69547,2024-11-08,2026-06-06,-72,183,21,162,21,7.63,160.23,160.23,Medix Wholesale,Shelf B-2,Expired,Low Stock
+MED-0727,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,40mg,14s,BN58404,2026-03-07,2028-01-02,503,672,536,136,0,66.75,35778,0,Apex Global Health,Shelf C-1,Safe,Overstocked
+MED-0728,Lasix,Furosemide,Sanofi,Cardiovascular / Diuretic,Tablet,40mg,50s,BN74165,2026-10-25,2028-01-16,517,247,134,113,0,12.99,1740.66,0,BioCare Logistics,Shelf A-2,Safe,Optimal
+MED-0729,Gaviscon,Sodium Alginate,Reckitt Benckiser,Gastrointestinal,Liquid,Standard,150ml,BN69694,2025-07-13,2027-04-25,251,478,65,413,0,52.13,3388.45,0,BioCare Logistics,Cold Storage 1,Safe,Low Stock
+MED-0730,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,30s,BN15279,2025-09-07,2027-03-16,211,412,196,216,0,27.52,5393.92,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0731,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,100s,BN16376,2026-05-02,2027-09-24,403,320,51,269,0,70.08,3574.08,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0732,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN15856,2027-01-18,2028-06-24,677,679,468,211,0,76.77,35928.36,0,BioCare Logistics,Shelf B-2,Safe,Overstocked
+MED-0733,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN76160,2026-03-15,2028-02-19,551,559,81,478,0,73.97,5991.57,0,Apex Global Health,Shelf A-1,Safe,Low Stock
+MED-0734,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,4s,BN40516,2026-01-26,2027-10-29,438,146,90,56,0,75.93,6833.7,0,Apex Global Health,Narcotics Safe,Safe,Overstocked
+MED-0735,Glucophage,Metformin,Merck,Antidiabetic,Tablet,500mg,60s,BN84972,2025-12-15,2027-09-28,407,760,131,629,0,55.62,7286.22,0,PharmaLink Distribution,Shelf A-2,Safe,Optimal
+MED-0736,Diflucan,Fluconazole,Pfizer,Antifungal,Capsule,150mg,1s,BN72368,2025-10-05,2026-12-05,110,774,549,225,0,17.33,9514.17,0,PharmaLink Distribution,Shelf B-1,Safe,Overstocked
+MED-0737,Nexium,Esomeprazole,AstraZeneca,Gastrointestinal,Capsule,20mg,28s,BN21094,2027-02-16,2028-07-29,712,511,306,205,0,6.21,1900.26,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0738,Crestor,Rosuvastatin,AstraZeneca,Cardiovascular,Tablet,5mg,30s,BN13153,2026-03-25,2027-10-06,415,363,51,312,0,11.96,609.96,0,PharmaLink Distribution,Shelf C-1,Safe,Low Stock
+MED-0739,Nurofen,Ibuprofen,Reckitt Benckiser,Analgesic / NSAID,Tablet,400mg,24s,BN33942,2025-11-29,2027-02-15,182,414,213,201,0,58.49,12458.37,0,PharmaLink Distribution,Shelf C-1,Safe,Optimal
+MED-0740,Plavix,Clopidogrel,Sanofi,Cardiovascular,Tablet,75mg,28s,BN17667,2025-09-15,2027-02-25,192,245,110,135,0,76.17,8378.7,0,Apex Global Health,Shelf B-2,Safe,Optimal
+MED-0741,Zyrtec,Cetirizine,Johnson & Johnson,Antihistamine,Tablet,10mg,10s,BN41407,2027-03-10,2028-07-08,691,604,265,339,0,64.57,17111.05,0,BioCare Logistics,Shelf A-1,Safe,Optimal
+MED-0742,Augmentin,Amoxicillin + Clavulanate,GlaxoSmithKline,Antibiotic,Tablet,625mg,20s,BN70925,2025-05-20,2027-01-22,158,129,57,72,0,54.77,3121.89,0,PharmaLink Distribution,Shelf B-1,Safe,Optimal
+MED-0743,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,250mg,10s,BN82706,2025-10-20,2027-03-24,219,681,421,260,0,39.29,16541.09,0,OmniPharma Ltd.,Shelf A-2,Safe,Overstocked
+MED-0744,Panadol,Paracetamol,Haleon,Analgesic,Tablet,500mg,24s,BN42133,2026-04-14,2028-01-23,524,562,26,536,0,2.58,67.08,0,BioCare Logistics,Shelf C-1,Safe,Low Stock
+MED-0745,Zoloft,Sertraline,Viatris,Antidepressant,Tablet,50mg,30s,BN17887,2026-11-05,2028-03-23,584,712,261,451,0,71.76,18729.36,0,BioCare Logistics,Shelf B-1,Safe,Optimal
+MED-0746,Januvia,Sitagliptin,MSD,Antihistamine,Tablet,50mg,28s,BN15961,2025-01-09,2026-10-24,68,171,58,113,0,9.9,574.2,574.2,PharmaLink Distribution,Shelf A-2,Near Expiry (31-90 Days),Optimal
+MED-0747,Cipro,Ciprofloxacin,Bayer,Antibiotic,Tablet,500mg,14s,BN37636,2025-10-23,2027-10-07,416,450,330,120,0,24.06,7939.8,0,BioCare Logistics,Shelf B-1,Safe,Overstocked
+MED-0748,Ventolin,Albuterol,GlaxoSmithKline,Respiratory,Inhaler,100mcg,200 doses,BN37606,2027-02-04,2028-07-21,704,116,22,94,0,55.83,1228.26,0,PharmaLink Distribution,Cold Storage 1,Safe,Optimal
+MED-0749,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,30s,BN64154,2026-09-11,2028-03-30,591,651,88,563,0,67.45,5935.6,0,PharmaLink Distribution,Shelf C-1,Safe,Low Stock
+MED-0750,Lipitor,Atorvastatin,Pfizer,Cardiovascular,Tablet,40mg,90s,BN98112,2024-12-01,2026-10-04,48,466,218,248,0,17.12,3732.16,3732.16,PharmaLink Distribution,Shelf A-1,Near Expiry (31-90 Days),Optimal
